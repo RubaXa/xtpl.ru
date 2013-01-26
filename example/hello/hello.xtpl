@@ -1,0 +1,7 @@
+<x:tpl>
+	<div>
+		<input x:bind="ctx.name" type="text" placeholder="Enter your name" maxlength="50"/>
+		&nbsp;{{50 - (ctx.name || '').length}}
+	</div>
+	<h4>Hello {{ctx.name}}!</h4>
+</x:tpl>

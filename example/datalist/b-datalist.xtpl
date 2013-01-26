@@ -1,0 +1,90 @@
+<x:tpl ctrl="example.datalist">
+	<x:match name="b-datalist">
+		<x:script>
+		<![CDATA[
+			var __byId = {};
+
+			xtpl.utils.each($.items, function (item, i){
+				__byId[item.id] = item;
+			});
+
+
+			var __onSelect = function ($el){
+				var item = __byId[$el.attr('data-id')];
+				item.selected = !item.selected;
+				$.onSelectItem(item, $.items);
+			};
+
+
+			var $$__hoverItem = function ($el, className, evt){
+				GLOBAL.__datalistItemHoverId = evt.type != 'mouseleave' && $el.attr('data-id');
+				$el.toggleClass(className, evt.type != 'mouseleave');
+			};
+
+
+			var $$__hoverFlag = function ($el, className, evt){
+				$el.toggleClass(className, evt.type != 'mouseleave');
+			};
+		]]>
+		</x:script>
+
+		<div class="b-datalist"
+			 x:delegate="
+			 	[click] .js-cbx => __onSelect($el)
+				[mouseenter mouseleave] .b-datalist__item => $$__hoverItem($el, 'b-datalist__item_hover')
+				[mouseenter mouseleave] .b-datalist__item__flag => $$__hoverFlag($el, 'b-datalist__item__flag_hover')
+			">
+			<x:each bind="$.items" as="item">
+				<x:apply name="b-datalist__item" data="item"/>
+			</x:each>
+		</div>
+	</x:match>
+
+
+	<x:match name="b-datalist__item">
+		<div x:attr-getter="$.unread + $.selected" data-id="{$.id}" class="b-datalist__item">
+			!@class += $.unread ? ' b-datalist__item_unread' : '';
+			!@class += $.selected ? ' b-datalist__item_selected' : '';
+
+			<a x:attr-getter="0" href="./message/{$.id}" class="b-datalist__item__link"></a>
+
+			<div class="b-datalist__item__bg"></div>
+
+			<div class="b-datalist__item__date">
+				<x:value mod="datetime.short">$.date</x:value>
+			</div>
+
+			<div data-id="{$.id}" x:attr-getter="0" class="js-cbx b-datalist__item__cbx">
+				<div class="cbx" x:attr-getter="$.selected">
+					!@class += $.selected ? ' cbx_checked' : '';
+					<div class="cbx__checkmark"></div>
+				</div>
+			</div>
+
+			<div x:attr-getter="$.unread" x:click="$.unread = !$.unread;" class="b-datalist__item__status">
+				!@class += $.unread ? ' b-datalist__item__status_unread' : '';
+				<div class="b-datalist__item__status__icon"></div>
+			</div>
+
+			<div x:attr-getter="0" class="b-datalist__item__pic">
+				!@style = "background-image: url('//filin.mail.ru/pic?width=32&height=32&email="+$.from[0].email+"')";
+			</div>
+
+			<div x:attr-getter="$.flagged" x:click="$.flagged = !$.flagged;" class="b-datalist__item__flag">
+				!@class += $.flagged ? " b-datalist__item__flag_yes" : '';
+				!@class += $.id == GLOBAL.__datalistItemHoverId ? " b-datalist__item__flag_hover" : '';
+				<b></b>
+			</div>
+
+			<div class="b-datalist__item__info">
+				<div class="b-datalist__item__subj">
+					<x:value>$.subject</x:value>
+					<span class="b-datalist__item__subj__snippet"><x:value>$.snippet</x:value></span>
+				</div>
+				<div class="b-datalist__item__addr">
+					<x:value>$.from[0].name</x:value>
+				</div>
+			</div>
+		</div>
+	</x:match>
+</x:tpl>

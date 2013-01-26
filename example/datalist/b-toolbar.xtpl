@@ -1,0 +1,83 @@
+<x:tpl>
+	<x:match name="b-toolbar">
+		<x:script>
+			var toolbar = {
+
+				onClickSelectAll: function (evt){
+					evt.$apply = false;
+					$.selectAll = !$.selectAll;
+					$.onSelectAll($.selectAll ? 'all' : 'none');
+				},
+
+				onMoveTo: function ($el){
+
+				},
+
+				onSelectItem: function ($el){
+					$.onSelectAll($el.attr('data-name'));
+				}
+			};
+		</x:script>
+
+		<div class="b-toolbar">
+			<x:apply name="b-dropdown">
+				<x:data>{ onSelectItem: toolbar.onSelectItem }</x:data>
+				<x:param set="ctrl">
+					<div x:click="toolbar.onClickSelectAll()" x:attr-getter="$.selectAll" class="cbx cbx_transparent">
+						!@class += $.selectAll ? ' cbx_checked' : '';
+						<div class="cbx__checkmark"></div>
+					</div>
+				</x:param>
+				<x:param set="list">
+					<a data-name="all">Выделить все письма</a>
+					<a data-name="unread">Непрочитанные</a>
+					<a data-name="read">Прочитанные</a>
+					<a data-name="flagged">Помечанные флажком</a>
+					<a data-name="attach">С файлами</a>
+					<a data-name="none">Снять выделение</a>
+				</x:param>
+			</x:apply>
+
+			<div class="b-toolbar__space"></div>
+
+			<div x:attr-getter="$.selected > 0" class="btn">
+				!@class += $.selected ? '' : ' btn_disabled';
+				<span>Удалить</span>
+			</div>
+
+			<div class="b-toolbar__space"></div>
+
+			<x:apply name="b-dropdown">
+				<x:data>$.moveTo</x:data>
+				<x:param set="ctrl">
+					<span>Переместить</span>
+				</x:param>
+				<x:param set="list">
+					<x:if bind="$.moveTo.expanded">
+						<x:each data="ctx.folders" as="folder">
+							<a data-id="{folder.id}">
+								<span>{{folder.name}}</span>
+							</a>
+						</x:each>
+					</x:if>
+				</x:param>
+			</x:apply>
+
+			<div class="b-toolbar__space"></div>
+
+			<x:apply name="b-dropdown">
+				<x:data>$.markAs</x:data>
+				<x:param set="ctrl">
+					<span>Переметить</span>
+				</x:param>
+				<x:param set="list">
+					<a data-name="all">Прочитанные</a>
+					<a data-name="unread">Непрочитанные</a>
+					<div class="b-dropdown__list__hr"></div>
+					<a data-name="flag_yes">Пометить флажком</a>
+					<a data-name="flag_no">Снять флажок</a>
+				</x:param>
+			</x:apply>
+		</div>
+	</x:match>
+</x:tpl>

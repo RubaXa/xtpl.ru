@@ -1,0 +1,53 @@
+<x:tpl ctrl="example.uploader">
+	<x:script>
+		var __file;
+		var __editFile = function (file){
+			if( __file ) __file.editable = false;
+			__file = file;
+
+			file.newName  = file.newName || file.name;
+			file.editable = true;
+		};
+	</x:script>
+
+	<div class="uploader">
+		@class += ctx.files.length ? ' uploader_files' : '';
+
+		<form
+			x:each="file in ctx.files"
+			x:submit="__file.editable = false;"
+			class="uploader__list">
+
+			<div class="uploader__list__item">
+				<div class="uploader__list__item__name">
+					<x:if bind="file.editable">
+						<input x:bind="file.newName" x:autofocus type="text"/>
+					<x:else/>
+						<a x:click="__editFile(file)">{{file.newName || file.name}}</a>
+					</x:if>
+				</div>
+				<div class="uploader__list__item__progress">
+					<div class="progress">
+						@class += file.complete ? '' : ' progress-striped active';
+
+						<div class="bar" style="width: {{file.loaded/file.total*100}}%">
+							@class += file.complete ? ' bar-success' : '';
+							<x:if bind="file.complete">
+								complete
+							</x:if>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<div
+		  x:dnd-files="[ctx.onChoose, 'uploader__choose_hover_dnd']"
+		  class="uploader__choose js-fileapi-wrapper">
+			<span>DROP FILES</span>
+			<small>OR</small>
+			<span>CLICK HERE</span>
+			<input x:choose-files="ctx.onChoose" type="file" class="uploader__choose__inp" size="1"/>
+		</div>
+	</div>
+</x:tpl>

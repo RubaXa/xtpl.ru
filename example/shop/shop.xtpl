@@ -1,0 +1,46 @@
+<x:tpl ctrl="example.shop">
+	<h2>Выберите шар</h2>
+
+	<div class="shop">
+		<x:each bind="ctx.items" as="item">
+			<div x:click="ctx.addToCart(item)" class="shop__item shop__item_{{item.size}}">
+				<div class="ball" style="background-color: {{item.color}}"></div>
+				<div class="shop__item__plus">&#10010;</div>
+				<div class="shop__item__price">{{ctx.getPrice(item)}}Р</div>
+			</div>
+		</x:each>
+	</div>
+
+	<div x:visible="ctx.cart.length > 0" class="cart">
+		<div class="cart__table">
+			<x:each bind="ctx.cart" as="item">
+				<div x:fade-in="250" class="cart__item">
+					<div class="pull-right">
+						<div class="cart__item__price">{{ctx.getPrice(item)}}Р</div>
+						<div class="cart__item__amount">
+							x <input x:bind="item.amount" type="text" maxlength="3" /> =
+						</div>
+						<div class="cart__item__total">{{ctx.getPrice(item, item.amount)}}Р</div>
+					</div>
+
+					<div class="cart__item__cbx"><input x:checked="item.selected" type="checkbox" class="cbx" /></div>
+					<div class="cart__item__name">{{item.name}}</div>
+					<div class="cart__item__size"><x:apply name="select_size" data="item"/></div>
+				</div>
+			</x:each>
+		</div>
+
+		<div class="cart__total">
+			<span class="pull-right">Итого: {{ctx.getTotalPrice()}}Р</span>
+			<button x:click="ctx.removeSelected()" x:disabled="!ctx.getCountSelected()">Remove</button>
+		</div>
+	</div>
+
+	<x:match name="select_size">
+		<select x:bind="$.size">
+			<x:each data="ctx.sizes" as="size">
+				<option><x:value>size</x:value></option>
+			</x:each>
+		</select>
+	</x:match>
+</x:tpl>

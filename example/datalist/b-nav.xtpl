@@ -1,0 +1,73 @@
+<x:tpl>
+	<x:match name="b-nav">
+		<div x:delegate="[click] .b-nav__item => $.onClick($el);" class="b-nav">
+			<x:each bind="$.items" as="item">
+				<x:apply name="b-nav__item" select-mode="$.type" data="item" />
+			</x:each>
+		</div>
+	</x:match>
+
+
+	<x:match name="b-nav" mode="folders">
+		<x:apply name="b-nav">
+			<x:data>{
+				  type:		'folders'
+				, items:	ctx.folders
+				, onClick:	function ($el){
+					ctx.folderId = $el.data('id');
+				}
+			}</x:data>
+		</x:apply>
+	</x:match>
+
+
+	<!--x:match name="b-nav" mode="group">
+		<x:apply name="b-nav">
+			<x:param set="content">
+				<x:each bind="$.items" as="group">
+					<div x:attr-getter="group.active" class="b-nav__group">
+						!@class += group.active ? ' b-nav__group_active' : '';
+
+						<a class="b-nav__group__name">{{group.name}}</a>
+						<div class="b-nav__group__entry">
+							<x:apply name="b-nav">{
+								  type:  $.type
+								, items: group.items
+							}</x:apply>
+						</div>
+					</div>
+				</x:each>
+			</x:param>
+		</x:apply>
+	</x:match-->
+
+
+	<x:match name="b-nav__item">
+		<a data-id="{$.id}" x:attr-getter="0" class="b-nav__item">
+			!@href   = $.href;
+			!@title  = $.title;
+			!@class += ($.active ? ' b-nav__item_active' : '') + ($.mod ? ' b-nav__item_'+$.mod : '');
+			<x:param get="content"/>
+		</a>
+	</x:match>
+
+
+	<x:match name="b-nav__item" mode="folders">
+		<x:apply name="b-nav__item">
+			<x:data bind="true">{
+				  id:		$.id
+				, mod:		$.type || $.id
+				, href:		'/folder/' + $.id
+				, title:	$.messages_total
+								? 'Всего '+ $.messages_total +' письма'+($.messages_unread ? ' и '+$.messages_unread+' непроченитанное' : '')
+								: ($.id >= 0 ? 'Нет писем' : '')
+				, name:		$.name
+				, active:	$.id == ctx.folderId
+			}</x:data>
+
+			<x:param set="content">
+				<span><x:value>$.name</x:value></span>
+			</x:param>
+		</x:apply>
+	</x:match>
+</x:tpl>

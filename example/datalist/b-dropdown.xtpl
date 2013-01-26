@@ -1,0 +1,38 @@
+<x:tpl>
+	<x:match name="b-dropdown">
+		<x:script>
+			xtpl.utils.extend($, {
+				expanded: false,
+
+				onClick: function (evt){
+					if( !evt.isDefaultPrevented() && !$.disabled ){
+						$.expanded = !$.expanded;
+						setTimeout(function (){
+							jQuery('body')[$.expanded ? 'one' : 'unbind']('click', $.collapse);
+						});
+					}
+				},
+
+				collapse: function (){
+					$.expanded = false;
+					__buf.$apply();
+				}
+			});
+		</x:script>
+
+		<div x:attr-getter="$.expanded+'.'+$.disabled" class="b-dropdown">
+			!@class += $.disabled ? ' b-dropdown_disabled' : ''
+			!@class += $.expanded ? ' b-dropdown_expanded' : '';
+
+			<div x:click="$.onClick()" class="b-dropdown__ctrl">
+				<x:param get="ctrl"/>
+				<div class="b-dropdown__arrow"></div>
+			</div>
+
+			<div x:delegate="[click] [data-name] => $.onSelectItem($el)" x:attr-getter="$.expanded" class="b-dropdown__list">
+				!@style = $.expanded ? '' : 'display: none';
+				<x:param get="list"/>
+			</div>
+		</div>
+	</x:match>
+</x:tpl>

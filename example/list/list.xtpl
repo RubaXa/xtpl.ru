@@ -1,0 +1,17 @@
+<x:tpl ctrl="example.list">
+	<form x:submit="ctx.addItem">
+		<input x:bind="ctx.newItem" type="text" placeholder="Add new item"/>
+	</form>
+
+	<ul x:each="(idx, text) in ctx.items" class="nav nav-pills nav-stacked">
+		<li x:click="ctx.activeIdx = idx;" x:class="{ active: idx == ctx.activeIdx }">
+			<a href="#">{{text}}</a>
+		</li>
+	</ul>
+
+	<div>
+		<button x:click="ctx.sortItems(ctx.SORT_ASC);" class="btn btn-mini">asc</button>
+		<x:text> &nbsp; </x:text>
+		<button x:click="ctx.sortItems(ctx.SORT_DESC);" class="btn btn-mini">desc</button>
+	</div>
+</x:tpl>

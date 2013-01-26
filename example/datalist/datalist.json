@@ -1,0 +1,6326 @@
+{"status":200, "email":"k.lebedev@corp.mail.ru", "last_modified":1358434703, "body":{
+	"folders":[
+		{
+			"id":"0",
+			"name":"Входящие",
+			"messages_unread":0,
+			"messages_total":3429,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"inbox"
+		},
+		{
+			"id":"3",
+			"name":"Archive",
+			"messages_unread":0,
+			"messages_total":38,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":false
+		},
+		{
+			"id":"4",
+			"name":"Deleted Messages",
+			"messages_unread":0,
+			"messages_total":0,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":false
+		},
+		{
+			"id":"5",
+			"name":"Drafts",
+			"messages_unread":0,
+			"messages_total":0,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":false
+		},
+		{
+			"id":"6",
+			"name":"Junk",
+			"messages_unread":0,
+			"messages_total":0,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":false
+		},
+		{
+			"id":"2",
+			"name":"Sent Messages",
+			"messages_unread":0,
+			"messages_total":0,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":false
+		},
+		{
+			"id":"1",
+			"name":"secure",
+			"messages_unread":0,
+			"messages_total":8,
+			"parent":"-1",
+			"child":false,
+			"secret":true,
+			"system":false
+		},
+		{
+			"id":"500000",
+			"name":"Отправленные",
+			"messages_unread":0,
+			"messages_total":285,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"outbox"
+		},
+		{
+			"id":"500001",
+			"name":"Черновики",
+			"messages_unread":0,
+			"messages_total":5,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"drafts"
+		},
+		{
+			"id":"950",
+			"name":"Спам",
+			"messages_unread":1,
+			"messages_total":2,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"spam"
+		},
+		{
+			"id":"500002",
+			"name":"Корзина",
+			"messages_unread":0,
+			"messages_total":340,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"trash"
+		},
+		{
+			"id":"500003",
+			"name":"Агент",
+			"messages_unread":4,
+			"messages_total":4,
+			"parent":"-1",
+			"child":false,
+			"secret":false,
+			"system":"mrim"
+		}
+	],
+	"messages":[
+		{
+			"id":"13584344180000000757",
+			"prev":false,
+			"next":"13584291400000000143",
+			"subject":"[Mail] АНАЛИЗ ПОЧТЫ С Google PageSpeed",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358434414,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.isaev@corp.mail.ru",
+					"name":"Денис Исаев"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Провел анализ почты с помощью Google PageSpeed (проверяет скорость работы сайта), выявило несколько ",
+			"priority":3
+		},
+		{
+			"id":"13584291400000000143",
+			"prev":"13584344180000000757",
+			"next":"13584216200000000807",
+			"subject":"attachments limit error",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358429139,
+			"size":2,
+			"folder":"0",
+			"from":[
+				{
+					"email":"chudinov@corp.mail.ru",
+					"name":"Чудинов Николай"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"http://clip.corp.mail.ru/clip/m0/1358429093-clip-14kb.png  ",
+			"priority":3
+		},
+		{
+			"id":"13584216200000000807",
+			"prev":"13584291400000000143",
+			"next":"13583366490000000360",
+			"subject":"Re[2]: Выпиливание /images/",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358421619,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав"
+				}
+			],
+			"to":[
+				{
+					"email":"m.glekov@corp.mail.ru",
+					"name":"Maxim Glekov"
+				}
+			],
+			"snippet":"я правильно понимаю: что для переноса build достаточно в ветке создать свой конфиг для раскладчика. ",
+			"priority":3
+		},
+		{
+			"id":"13583366490000000360",
+			"prev":"13584216200000000807",
+			"next":"13583329110000000355",
+			"subject":"[Eap] День рождения",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358336645,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"eap@ml.corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"platonov@corp.mail.ru",
+					"name":"Игорь Платонов"
+				},
+				{
+					"email":"gornyi@corp.mail.ru",
+					"name":"Alexander Gornyi"
+				},
+				{
+					"email":"gabrelyan@corp.mail.ru",
+					"name":"Vladimir Gabrelyan"
+				},
+				{
+					"email":"yermakov@corp.mail.ru",
+					"name":"Igor Yermakov"
+				},
+				{
+					"email":"a.proskuryakov@corp.mail.ru",
+					"name":"a.proskuryakov"
+				},
+				{
+					"email":"m.laletin@corp.mail.ru",
+					"name":"M.laletin@corp.mail.ru"
+				},
+				{
+					"email":"e.dmitriev@corp.mail.ru",
+					"name":"Evgeny Dmitriev"
+				},
+				{
+					"email":"a.kulitskiy@corp.mail.ru",
+					"name":"Alexander Kulitsky"
+				},
+				{
+					"email":"r.chukov@corp.mail.ru",
+					"name":"Роман Чуков"
+				}
+			],
+			"snippet":"Привет!  Приглашаю отведать пиццы с пивом в честь моего дня рождения сегодня в 20.00 на большой кухн",
+			"priority":3
+		},
+		{
+			"id":"13583329110000000355",
+			"prev":"13583366490000000360",
+			"next":"13583329080000000993",
+			"subject":"6. exe",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358332910,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.denisov@corp.mail.ru",
+					"name":"Григорий Гришечкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"1Проверка подписи   with numbers and letters  ",
+			"priority":3
+		},
+		{
+			"id":"13583329080000000993",
+			"prev":"13583329110000000355",
+			"next":"13583328990000000355",
+			"subject":"5. eml",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358332907,
+			"size":85,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.denisov@corp.mail.ru",
+					"name":"Григорий Гришечкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"1Проверка подписи   with numbers and letters  ",
+			"priority":3
+		},
+		{
+			"id":"13583328990000000355",
+			"prev":"13583329080000000993",
+			"next":"13583324740000000638",
+			"subject":"2. avi",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358332897,
+			"size":6963,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.denisov@corp.mail.ru",
+					"name":"Григорий Гришечкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"1Проверка подписи   with numbers and letters  ",
+			"priority":3
+		},
+		{
+			"id":"13583324740000000638",
+			"prev":"13583328990000000355",
+			"next":"13583324720000000192",
+			"subject":"2",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358332473,
+			"size":1957,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.denisov@corp.mail.ru",
+					"name":"Григорий Гришечкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"1Проверка подписи   with numbers and letters  ",
+			"priority":3
+		},
+		{
+			"id":"13583324720000000192",
+			"prev":"13583324740000000638",
+			"next":"13582539040000000861",
+			"subject":"1",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358332471,
+			"size":4754,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.denisov@corp.mail.ru",
+					"name":"Григорий Гришечкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"1Проверка подписи   with numbers and letters  ",
+			"priority":3
+		},
+		{
+			"id":"13582539040000000861",
+			"prev":"13583324720000000192",
+			"next":"13582373170000000643",
+			"subject":"Напоминание о событии: 15 января 17:00 - Почта, новый дизайн, 15a",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358253904,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"calendar@corp.mail.ru",
+					"name":"\"Календарь@Mail.Ru\""
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Напоминание о событии Почта, новый дизайн, 15a",
+			"priority":3
+		},
+		{
+			"id":"13582373170000000643",
+			"prev":"13582539040000000861",
+			"next":"13582367230000000861",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":true,
+			"attach":false,
+			"spf":true,
+			"date":1358237316,
+			"size":28,
+			"folder":"0",
+			"from":[
+				{
+					"email":"delfi1@mail.ru",
+					"name":"Людмила Селезнева"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Включённые плагины  Более подробную информацию о плагинах для браузера можно найти на   mozilla.org ",
+			"priority":3
+		},
+		{
+			"id":"13582367230000000861",
+			"prev":"13582373170000000643",
+			"next":"13582350390000000365",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":true,
+			"attach":false,
+			"spf":true,
+			"date":1358236723,
+			"size":23,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.roskina@corp.mail.ru",
+					"name":"Александра Роскина"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Включённые плагины  Более подробную информацию о плагинах для браузера можно найти на   mozilla.org ",
+			"priority":3
+		},
+		{
+			"id":"13582350390000000365",
+			"prev":"13582367230000000861",
+			"next":"13581836630000000083",
+			"subject":"[Allcompany] Moscow Django Meetup 24 января в офисе Mail.Ru Group!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358235023,
+			"size":20,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!   Рады сообщить, что 24 января, в четверг, с 19.00 до 22.00 пройдет очередная встре",
+			"priority":3
+		},
+		{
+			"id":"13581836630000000083",
+			"prev":"13582350390000000365",
+			"next":"13581591340000000431",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1358183633,
+			"size":663,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.sorokina@corp.mail.ru",
+					"name":"Elena Sorokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Свежие новости Mail.Ru Group:  Обновления, события, запуски:   Пользователи А",
+			"priority":3
+		},
+		{
+			"id":"13581591340000000431",
+			"prev":"13581836630000000083",
+			"next":"13581434520000000747",
+			"subject":"[Frontend] Fwd: [Allnormal] известить о факапе",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358159131,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"frontend@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Пересылаю, если кто-то не видел.  От себя добавлю, если кто-то не знает/стесняется звонить незнакомо",
+			"priority":3
+		},
+		{
+			"id":"13581434520000000747",
+			"prev":"13581591340000000431",
+			"next":"13578997820000000902",
+			"subject":"[Allusers] Спасибо вам за Теплый декабрь!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1358143441,
+			"size":174,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие друзья!  В эти праздники многие ждали волшебства - а многие из вас сами решили примерить рол",
+			"priority":3
+		},
+		{
+			"id":"13578997820000000902",
+			"prev":"13581434520000000747",
+			"next":"13578980450000000927",
+			"subject":"Fwd[2]: Re: Проблема на tatar.mail.ru ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1357899781,
+			"size":24,
+			"folder":"0",
+			"from":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"-------- Пересылаемое сообщение --------  От кого: Александр Проскуряков   &lt;  a.proskuryakov@corp",
+			"priority":3
+		},
+		{
+			"id":"13578980450000000927",
+			"prev":"13578997820000000902",
+			"next":"13578079350000000791",
+			"subject":"[Allcompany] Отпуск и это очень важно!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1357898033,
+			"size":35,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Мы умеем работать, а самое главное мы умеем отдыхать.  Хотим напомнить вам про важ",
+			"priority":3
+		},
+		{
+			"id":"13578079350000000791",
+			"prev":"13578980450000000927",
+			"next":"13577439250000000565",
+			"subject":"Примерный план по большим задачам на квартал",
+			"unread":false,
+			"flagged":true,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1357807934,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"Кренин Владимир"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Дмитрий Шкинёв"
+				}
+			],
+			"snippet":"My.com  Страница списка писем, 3 недели, Кренин + остальные  К концу квартала 2 страницы  ПДД  Прото",
+			"priority":3
+		},
+		{
+			"id":"13577439250000000565",
+			"prev":"13578079350000000791",
+			"next":"13577333820000000784",
+			"subject":"Fwd: Календарный дизайн Почты",
+			"unread":false,
+			"flagged":true,
+			"reply":false,
+			"forward":true,
+			"attach":true,
+			"spf":true,
+			"date":1357743924,
+			"size":2119,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Дмитрий Шкинёв"
+				}
+			],
+			"snippet":"-------- Пересылаемое сообщение --------  От кого: Алексей Сергеев   &lt;  a.sergeev@corp.mail.ru  &",
+			"priority":3
+		},
+		{
+			"id":"13577333820000000784",
+			"prev":"13577439250000000565",
+			"next":"13577192780000000283",
+			"subject":"[Allusers] ограничение на бронирование переговорок для изучения иностранных языков",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1357733372,
+			"size":10,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.rukavitsin@corp.mail.ru",
+					"name":"Denis Rukavitsin"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Уважаемые коллеги,   Наступил Новый год, а это значит новые интересные задачи, идеи и планы, которые",
+			"priority":3
+		},
+		{
+			"id":"13577192780000000283",
+			"prev":"13577333820000000784",
+			"next":"13567902280000000424",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1357719065,
+			"size":4854,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Поздравляем вас с Новым годом и Рождеством!  Желаем в наступившем году, чтобы сбыл",
+			"priority":3
+		},
+		{
+			"id":"13567902280000000424",
+			"prev":"13577192780000000283",
+			"next":"13566994520000000821",
+			"subject":"[Mail] Я в отпуске с 9 по 11 января",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356790224,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				},
+				{
+					"email":"dmitry.sokolov@corp.mail.ru",
+					"name":"Дмитрий Соколов"
+				},
+				{
+					"email":"o.parinov@corp.mail.ru",
+					"name":"Олег Паринов"
+				},
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				},
+				{
+					"email":"a.lyskov@corp.mail.ru",
+					"name":"Александр Лысков"
+				},
+				{
+					"email":"fedina@corp.mail.ru",
+					"name":"Анастасия"
+				},
+				{
+					"email":"kinenbaev@corp.mail.ru",
+					"name":"Сергей Киненбаев (kinenbaev@corp.mail.ru)"
+				},
+				{
+					"email":"i.myzdrikov@corp.mail.ru",
+					"name":"Ivan Myzdrikov"
+				},
+				{
+					"email":"d.petrov@corp.mail.ru",
+					"name":"Dmitry Petrov"
+				},
+				{
+					"email":"a.kostyagin@corp.mail.ru",
+					"name":"Андрей Костягин"
+				}
+			],
+			"snippet":"Привет.  Я в отпуске с 9 по 11 января. Интернет и телефон как обычно доступны. Но злоупотреблять мое",
+			"priority":3
+		},
+		{
+			"id":"13566994520000000821",
+			"prev":"13567902280000000424",
+			"next":"13566932720000000270",
+			"subject":"RE: Собеседование 28.12 в 12.00, Frontend-разработчик, Skyforge, Хорин Александр",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356699451,
+			"size":19,
+			"folder":"0",
+			"from":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"Андрей Купришов"
+				}
+			],
+			"to":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"\"'Marina Tereshina'\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"bukharaev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Всем привет.  Собеседовали Александра совместно с ребятами. Суммирую впечатления:  По уровню знания ",
+			"priority":3
+		},
+		{
+			"id":"13566932720000000270",
+			"prev":"13566994520000000821",
+			"next":"13566817040000000635",
+			"subject":"[Allcompany] Опрос от Студии Мини-игры",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356693263,
+			"size":11,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Как многие знают, мы в данный момент заняты перезапуском игры   «  Покер  »  . Дан",
+			"priority":3
+		},
+		{
+			"id":"13566817040000000635",
+			"prev":"13566932720000000270",
+			"next":"13566788440000000885",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356681588,
+			"size":514,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 28 декабря,  День Рождения празднуют:  Ирина Никель   Специа",
+			"priority":3
+		},
+		{
+			"id":"13566788440000000885",
+			"prev":"13566817040000000635",
+			"next":"13566260200000000742",
+			"subject":"RE: Собеседование 27.12 в 16.00, Frontend-разработчик, Skyforge, Лысенков Дмитрий",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356678843,
+			"size":38,
+			"folder":"0",
+			"from":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"Андрей Купришов"
+				}
+			],
+			"to":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"\"'Marina Tereshina'\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Всем привет.  По вчерашнему кандидату, Дмитрию  (описываю совокупные впечатления ребят и свои)  :  Я",
+			"priority":3
+		},
+		{
+			"id":"13566260200000000742",
+			"prev":"13566788440000000885",
+			"next":"13566236050000000352",
+			"subject":"Re: [Allcompany] Будьте всегда на связи в Агенте! Даже 1 января в 10 утра под елкой ;)",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356626013,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги! Хотим напомнить, что исходящие из Агента смс бесплатные, а ответные смс платные. Ст",
+			"priority":3
+		},
+		{
+			"id":"13566236050000000352",
+			"prev":"13566260200000000742",
+			"next":"13566235720000000321",
+			"subject":"Собеседование 28.12 в 12.00, Frontend-разработчик, Skyforge, Хорин Александр",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356623602,
+			"size":714,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				},
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"\"Andrey Kuprishov (kuprishov@corp.mail.ru)\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				}
+			],
+			"snippet":"",
+			"priority":3
+		},
+		{
+			"id":"13566235720000000321",
+			"prev":"13566236050000000352",
+			"next":"13566052990000000411",
+			"subject":"Собеседование 28.12 в 12.00, Frontend-разработчик, Skyforge, Хорин Александр",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356623571,
+			"size":718,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"\"Andrey Kuprishov (kuprishov@corp.mail.ru)\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				},
+				{
+					"email":"bukharaev@corp.mail.ru",
+					"name":"\"bukharaev@corp.mail.ru\""
+				}
+			],
+			"snippet":"Привет!  В пятницу, 28.12 к 12.00 к нам на собеседование подойдет Хорин Александр, кандидат на позиц",
+			"priority":3
+		},
+		{
+			"id":"13566052990000000411",
+			"prev":"13566235720000000321",
+			"next":"13566048560000000332",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356605298,
+			"size":116,
+			"folder":"0",
+			"from":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"--   Удалить после прочтения.  ",
+			"priority":3
+		},
+		{
+			"id":"13566048560000000332",
+			"prev":"13566052990000000411",
+			"next":"13566024500000000271",
+			"subject":"[Allusers] в поиске квитанций для проекта Деньги@Mail.Ru",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356604833,
+			"size":331,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, коллеги!  Нам для мобильного приложения   Денег@Mail.Ru  нужны платежки со штрих-кодами",
+			"priority":3
+		},
+		{
+			"id":"13566024500000000271",
+			"prev":"13566048560000000332",
+			"next":"13565953250000000499",
+			"subject":"[Allcompany] Визуальные закладки для браузера Хром",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356602436,
+			"size":102,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				},
+				{
+					"email":"o.kuritsyna@corp.mail.ru",
+					"name":"\"o.kuritsyna@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  мы разработали новые визуальные закладки для браузера Хром.   Визуальные закладки ",
+			"priority":3
+		},
+		{
+			"id":"13565953250000000499",
+			"prev":"13566024500000000271",
+			"next":"13565949260000000180",
+			"subject":"[Allusers] С Наступающим Новым Годом!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356595025,
+			"size":847,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Если вы болели, были в отпуске или просто закрутились в новогодней суете и не успе",
+			"priority":3
+		},
+		{
+			"id":"13565949260000000180",
+			"prev":"13565953250000000499",
+			"next":"13565369710000000108",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356594902,
+			"size":643,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 27 декабря, поздравляем с Днём Рождения:  Дмитрия Савкова   ",
+			"priority":3
+		},
+		{
+			"id":"13565369710000000108",
+			"prev":"13565949260000000180",
+			"next":"13565364110000000256",
+			"subject":"Re: your mail",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356536970,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"to":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"snippet":"надо звать  Среда, 26 декабря 2012, 15:40 UTC от Marina Tereshina   &lt;  m.tereshina@corp.mail.ru  ",
+			"priority":3
+		},
+		{
+			"id":"13565364110000000256",
+			"prev":"13565369710000000108",
+			"next":"13565364010000000967",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356536409,
+			"size":718,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				}
+			],
+			"snippet":"Привет!  По просьбе Андрея Купришова, направляю на рассмотрение портфолио кандидата на позицию   Fro",
+			"priority":3
+		},
+		{
+			"id":"13565364010000000967",
+			"prev":"13565364110000000256",
+			"next":"13565360600000000667",
+			"subject":"[Allcompany] Будьте всегда на связи в Агенте! Даже 1 января в 10 утра под елкой ;)",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356536393,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги! Мы  запустили  новую  фичу  в Агенте: теперь все оффлайновые сообщения доставляются",
+			"priority":3
+		},
+		{
+			"id":"13565360600000000667",
+			"prev":"13565364010000000967",
+			"next":"13565356800000000017",
+			"subject":"Re: Array.remove рефакторинг",
+			"unread":false,
+			"flagged":false,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356536063,
+			"size":19,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				}
+			],
+			"to":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"snippet":"я за вариант Егора  Array.remove — удаляет элементы  Array.removeAt  — удаляет по индексу  --  С ува",
+			"priority":3
+		},
+		{
+			"id":"13565356800000000017",
+			"prev":"13565360600000000667",
+			"next":"13565351600000000547",
+			"subject":"Re: Array.remove рефакторинг",
+			"unread":false,
+			"flagged":false,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356535680,
+			"size":18,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				},
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Шкинев Дмитрий"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Абашкин Александр"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"Иван Чашкин"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"Демидов Владимир"
+				},
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Сумин Андрей"
+				}
+			],
+			"snippet":"Ещё вариант, взять реализацию из проверенной библиотеки, например http://sugarjs.com/api/Array/remov",
+			"priority":3
+		},
+		{
+			"id":"13565351600000000547",
+			"prev":"13565356800000000017",
+			"next":"13565147440000000945",
+			"subject":"Re[2]: Обновление /data/ru/common/ + ajs.Router",
+			"unread":false,
+			"flagged":false,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356535159,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"snippet":"По моему, нужно использовать строгий вариант  Array.remove(array, idx)  без   Array.removeItem  для ",
+			"priority":3
+		},
+		{
+			"id":"13565147440000000945",
+			"prev":"13565351600000000547",
+			"next":"13564489530000000661",
+			"subject":"RE: Собеседование 26.12 в 12.00, frontend-разработчик, Skyforge, Степанов Андрей ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356514744,
+			"size":32,
+			"folder":"0",
+			"from":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"Андрей Купришов"
+				}
+			],
+			"to":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"\"'Marina Tereshina'\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Всем привет.  Марина, провели вместе с ребятами собеседование Андрея (за что ребятам большое спасибо",
+			"priority":3
+		},
+		{
+			"id":"13564489530000000661",
+			"prev":"13565147440000000945",
+			"next":"13564392960000000311",
+			"subject":"Собеседование 27.12 в 16.00, Frontend-разработчик, Skyforge, Лысенков Дмитрий",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356448951,
+			"size":27,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"\"Andrey Kuprishov (kuprishov@corp.mail.ru)\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				},
+				{
+					"email":"bukharaev@corp.mail.ru",
+					"name":"\"bukharaev@corp.mail.ru\""
+				}
+			],
+			"snippet":"Привет!  В четверг, 27.12   к 16.00  к нам на встречу подойдёт Лысенков Дмитрий, кандидат на позицию",
+			"priority":3
+		},
+		{
+			"id":"13564392960000000311",
+			"prev":"13564489530000000661",
+			"next":"13564388470000000266",
+			"subject":"Re: [Allusers] Новогодний видеоклип!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356439290,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"troitskaya@corp.mail.ru",
+					"name":"Троицкая Наталья"
+				}
+			],
+			"to":[
+				{
+					"email":"<Не указано>",
+					"name":null
+				}
+			],
+			"snippet":"Коллеги, если у кого-то ссылка при клике не открывается, скопируйте ее руками плз и вставьте в брауз",
+			"priority":3
+		},
+		{
+			"id":"13564388470000000266",
+			"prev":"13564392960000000311",
+			"next":"13564367080000000741",
+			"subject":"[Allusers] Новогодний видеоклип!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356438837,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"troitskaya@corp.mail.ru",
+					"name":"Троицкая Наталья"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Дорогие коллеги!  Вы все помните, как мы снимали новогодний видеоклип в офисе в начале декабря!  Спа",
+			"priority":3
+		},
+		{
+			"id":"13564367080000000741",
+			"prev":"13564388470000000266",
+			"next":"13564300420000000518",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356436708,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"--   Удалить после прочтения.  ",
+			"priority":3
+		},
+		{
+			"id":"13564300420000000518",
+			"prev":"13564367080000000741",
+			"next":"13564291270000000547",
+			"subject":"Re: Не прикрепляются атачи",
+			"unread":false,
+			"flagged":false,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356430041,
+			"size":19,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.chernyshev@corp.mail.ru",
+					"name":"Дмитрий Чернышев"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"Привет!  Удалось до нее дозвониться. Там на компе полно заразы (она говорит, что SMS блокер сейчас в",
+			"priority":3
+		},
+		{
+			"id":"13564291270000000547",
+			"prev":"13564300420000000518",
+			"next":"13564228940000000126",
+			"subject":"Re[3]: Не прикрепляются атачи",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356429126,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"snippet":"А там реально 0 байт или может быть на самом деле не 0?  Вторник, 25 декабря 2012, 13:44 +04:00 от R",
+			"priority":3
+		},
+		{
+			"id":"13564228940000000126",
+			"prev":"13564291270000000547",
+			"next":"13564206570000000118",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356422874,
+			"size":303,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, дорогие коллеги!  Сегодня, 25 декабря, поздравляем с Днём Рождения:  Даниила Смирнова  ",
+			"priority":3
+		},
+		{
+			"id":"13564206570000000118",
+			"prev":"13564228940000000126",
+			"next":"13564199800000000665",
+			"subject":"Re: [Frontend] тест",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356420627,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"frontend@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"С задержкой но напоминаю про рассылку.  Вопросы, который обсуждали.  CDN и прогревание кешей - это я",
+			"priority":3
+		},
+		{
+			"id":"13564199800000000665",
+			"prev":"13564206570000000118",
+			"next":"13564161410000000353",
+			"subject":"[Frontend] тест",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356419968,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"frontend@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Тест  --  Андрей Сумин  Руководитель разработки клиентской части Mail.Ru, компания Mail.Ru Group  +7",
+			"priority":3
+		},
+		{
+			"id":"13564161410000000353",
+			"prev":"13564199800000000665",
+			"next":"13563746600000000574",
+			"subject":"[Allusers] С Наступающим Новым Годом!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356416080,
+			"size":844,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие  коллеги!  Поздравляем вас с наступающим Новым годом!  Пусть в новом году сбудутся все ваши ",
+			"priority":3
+		},
+		{
+			"id":"13563746600000000574",
+			"prev":"13564161410000000353",
+			"next":"13563670880000000262",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356374578,
+			"size":1479,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tayupova@corp.mail.ru",
+					"name":"Мадина Таюпова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Обновления, события, запуски:   О",
+			"priority":3
+		},
+		{
+			"id":"13563670880000000262",
+			"prev":"13563746600000000574",
+			"next":"13563670790000000989",
+			"subject":"собеседование 26.12 в 12.00, frontend-разработчик, Skyforge, Степанов Андрей ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356367086,
+			"size":25,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"\"Andrey Kuprishov (kuprishov@corp.mail.ru)\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				}
+			],
+			"snippet":"Степанов Андрей Андреевич  HTML-верстальщик  Мобильный телефон  +  7 963 9759600  Эл. почта  anufry@",
+			"priority":3
+		},
+		{
+			"id":"13563670790000000989",
+			"prev":"13563670880000000262",
+			"next":"13563379780000000255",
+			"subject":"Собеседование 26.12 в 12.00, frontend-разработчик, Skyforge, Степанов Андрей ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356367077,
+			"size":27,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tereshina@corp.mail.ru",
+					"name":"Marina Tereshina"
+				}
+			],
+			"to":[
+				{
+					"email":"kuprishov@corp.mail.ru",
+					"name":"\"Andrey Kuprishov (kuprishov@corp.mail.ru)\""
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"\"krenin@corp.mail.ru\""
+				}
+			],
+			"snippet":"Привет!  Договорились, что в среду 26.12 к нам на встречу к 12.00 подойдет Степанов Андрей, кандидат",
+			"priority":3
+		},
+		{
+			"id":"13563379780000000255",
+			"prev":"13563670790000000989",
+			"next":"13563365200000000281",
+			"subject":"[Allcompany] Опрос вашего мнения о нашей компании завершен. Всем спасибо за участие!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356337939,
+			"size":10,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую!  Итак, мы завершили опрос вашего мнения о нашей компании с рекордным участием ",
+			"priority":3
+		},
+		{
+			"id":"13563365200000000281",
+			"prev":"13563379780000000255",
+			"next":"13563333290000000237",
+			"subject":"[Mail] Удаляем statistic_db.statistic_table",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356336504,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"p.zinovkin@corp.mail.ru",
+					"name":"Павел Зиновкин"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Сабж.  ----  Павел Зиновкин  Руководитель группы разработки на python Почты@Mail.Ru  ",
+			"priority":3
+		},
+		{
+			"id":"13563333290000000237",
+			"prev":"13563365200000000281",
+			"next":"13562355370000000227",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356333235,
+			"size":1507,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  В субботу, 22 декабря, праздновали свой День рождения:  Галина Порубл",
+			"priority":3
+		},
+		{
+			"id":"13562355370000000227",
+			"prev":"13563333290000000237",
+			"next":"13561877060000000062",
+			"subject":"[Файлы@Mail.Ru] Уведомление об удалении файлов",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356235537,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"files-robot-noreply@corp.mail.ru",
+					"name":"Файлы@Mail.Ru"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Здравствуйте!  Вам были отправлены письма с вложенными файлами, которые хранятся на проекте   Файлы@",
+			"priority":3
+		},
+		{
+			"id":"13561877060000000062",
+			"prev":"13562355370000000227",
+			"next":"13561872780000000021",
+			"subject":"Re: Не прикрепляются атачи",
+			"unread":false,
+			"flagged":true,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356187597,
+			"size":10,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"d.chernyshev@corp.mail.ru",
+					"name":"Дмитрий Чернышев"
+				}
+			],
+			"snippet":"Исправил адрес Оли  Денис Аникин  Технический руководитель   Почты@Mail.Ru  22.12.2012, в 18:41, Дми",
+			"priority":3
+		},
+		{
+			"id":"13561872780000000021",
+			"prev":"13561877060000000062",
+			"next":"13561719370000000382",
+			"subject":"Re: Не прикрепляются атачи",
+			"unread":false,
+			"flagged":true,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356187277,
+			"size":237,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.chernyshev@corp.mail.ru",
+					"name":"Дмитрий Чернышев"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"snippet":"Всем, привет!  У нас есть еще одна жалоба (текст ниже) со скрином, браузер снова опера. На письма   ",
+			"priority":3
+		},
+		{
+			"id":"13561719370000000382",
+			"prev":"13561872780000000021",
+			"next":"13560890860000000560",
+			"subject":"Не прикрепляются атачи",
+			"unread":false,
+			"flagged":true,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356171925,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"Кренин Владимир"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"\"k.lebedev@corp.mail.ru\""
+				},
+				{
+					"email":"o.fedotova@corp.mail.ru",
+					"name":"\"o.fedotova@corp.mail.ru\""
+				},
+				{
+					"email":"d.chernyshev@corp.mail.ru",
+					"name":"Дмитрий Чернышев"
+				}
+			],
+			"snippet":"Привет.    Похоже проблема массовая. Она не только у Шабалиной. См ниже жалобу от юзера. В связи с ч",
+			"priority":3
+		},
+		{
+			"id":"13560890860000000560",
+			"prev":"13561719370000000382",
+			"next":"13560868980000000987",
+			"subject":"[Allcompany] Общий Selenium: новая уникальная доработанная версия",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356089075,
+			"size":18,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Рады сообщить что наше общее межпроектное тестирование под руководством   Дмитрия ",
+			"priority":3
+		},
+		{
+			"id":"13560868980000000987",
+			"prev":"13560890860000000560",
+			"next":"13560854300000000126",
+			"subject":"Екатерина Земскова предлагает Вам дружбу!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356086882,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"myadmin@corp.mail.ru",
+					"name":"Мой Мир@Mail.Ru"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Константин  Лебедев!  Екатерина  Земскова предлагает Вам дружбу в Моём Мире:  Екатерина  Земскова  В",
+			"priority":3
+		},
+		{
+			"id":"13560854300000000126",
+			"prev":"13560868980000000987",
+			"next":"13560844260000000757",
+			"subject":"РИТ++ 2013, стартуем! Первые билеты по себестоимости",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356085430,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"do-not-reply@lists.ontico.ru",
+					"name":"Conference Team"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Доброе утро! Ну что? Начинаем! Впереди нас ждет шестая профессиональная конференция веб-разработчико",
+			"priority":3
+		},
+		{
+			"id":"13560844260000000757",
+			"prev":"13560854300000000126",
+			"next":"13560842470000000788",
+			"subject":"[Mail] Fwd: [Eap] Fwd: [Allcompany] Опрос вашего мнения о нашей компании ЗАКАНЧИВАЕТСЯ СЕГОДНЯ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356084422,
+			"size":184,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Заполните, пожалуйста, опросник до 14:30 сегодня (те, кто его еще не заполнил).  Опрос делается не д",
+			"priority":3
+		},
+		{
+			"id":"13560842470000000788",
+			"prev":"13560844260000000757",
+			"next":"13560838560000000062",
+			"subject":"[Eap] Fwd: [Allcompany] Опрос вашего мнения о нашей компании ЗАКАНЧИВАЕТСЯ СЕГОДНЯ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1356084199,
+			"size":182,
+			"folder":"0",
+			"from":[
+				{
+					"email":"artamonova@corp.mail.ru",
+					"name":"Anna Artamonova"
+				}
+			],
+			"to":[
+				{
+					"email":"eap@ml.corp.mail.ru",
+					"name":"eap"
+				}
+			],
+			"snippet":"Товарищи, большая просьба сегодня всем найти время и заполнить опросник. Чтобы не забыть, предлагаю ",
+			"priority":3
+		},
+		{
+			"id":"13560838560000000062",
+			"prev":"13560842470000000788",
+			"next":"13560836780000000169",
+			"subject":"[Allcompany] Опрос вашего мнения о нашей компании ЗАКАНЧИВАЕТСЯ СЕГОДНЯ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356083794,
+			"size":184,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую!  Сегодня последний день опроса вашего мнения о нашей компании, 68% сотрудников",
+			"priority":3
+		},
+		{
+			"id":"13560836780000000169",
+			"prev":"13560838560000000062",
+			"next":"13560829660000000512",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356083662,
+			"size":518,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, дорогие коллеги!  Сегодня, 21 декабря, поздравляем с Днём Рождения:  Ольгу Березину   С",
+			"priority":3
+		},
+		{
+			"id":"13560829660000000512",
+			"prev":"13560836780000000169",
+			"next":"13560808500000000340",
+			"subject":"Re: [Allusers] 21 декабря - Детская Новогодняя Ёлка!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356082952,
+			"size":23,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие друзья!  Наш детский праздник подходит к концу. Спасибо всем кто пришел  J  Всех родителей п",
+			"priority":3
+		},
+		{
+			"id":"13560808500000000340",
+			"prev":"13560829660000000512",
+			"next":"13560086550000000719",
+			"subject":"Павел Вдовцев предлагает Вам дружбу!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356080836,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"myadmin@corp.mail.ru",
+					"name":"Мой Мир@Mail.Ru"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Константин  Лебедев!  Павел  Вдовцев предлагает Вам дружбу в Моём Мире:  Павел  Вдовцев  В друзья  С",
+			"priority":3
+		},
+		{
+			"id":"13560086550000000719",
+			"prev":"13560808500000000340",
+			"next":"13559964050000000853",
+			"subject":"[Allcompany] Опрос уровня удовлетворенности сотрудников - День четвертый!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1356008641,
+			"size":58,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую!  Сегодня четвертый день опроса вашего мнения о нашей компании, 60% сотрудников",
+			"priority":3
+		},
+		{
+			"id":"13559964050000000853",
+			"prev":"13560086550000000719",
+			"next":"13559957570000000152",
+			"subject":"[Allusers] 2 этап конкурса - слоган для Календаря Mail.Ru",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355996397,
+			"size":11,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Мы были приятно удивлены, что вы так активно участвовали в нашем конкурсе на лучши",
+			"priority":3
+		},
+		{
+			"id":"13559957570000000152",
+			"prev":"13559964050000000853",
+			"next":"13559891260000001000",
+			"subject":"[Mail] Пицца",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355994453,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"platonov@corp.mail.ru",
+					"name":"Игорь Платонов"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				},
+				{
+					"email":"gornyi@corp.mail.ru",
+					"name":"Alexander Gornyi"
+				},
+				{
+					"email":"kalinchenko@corp.mail.ru",
+					"name":"Maksim Kalinchenko"
+				},
+				{
+					"email":"yermakov@corp.mail.ru",
+					"name":"Igor Yermakov"
+				},
+				{
+					"email":"aleinikov@corp.mail.ru",
+					"name":"Roman Aleinikov"
+				},
+				{
+					"email":"osipov@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Коллеги, в связи с моим прошедшим ДР, подходите к 19-15 на маленькую кухню покушать пиццы.  Всех жду",
+			"priority":3
+		},
+		{
+			"id":"13559891260000001000",
+			"prev":"13559957570000000152",
+			"next":"13559835370000000225",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355989108,
+			"size":675,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 20 декабря, поздравляем с Днём Рождения:  Римму Шмелеву   Ху",
+			"priority":3
+		},
+		{
+			"id":"13559835370000000225",
+			"prev":"13559891260000001000",
+			"next":"13559265030000000487",
+			"subject":"[Allcompany] Moscow Django Meetup 20 декабря в офисе Mail.Ru Group!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355983529,
+			"size":18,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!   Напоминаем,   что сегодня с 19.00 до 22.00 пройдет очередная встреча разработчико",
+			"priority":3
+		},
+		{
+			"id":"13559265030000000487",
+			"prev":"13559835370000000225",
+			"next":"13559192720000000986",
+			"subject":"Напоминание о событии: 19 декабря 18:30 - Встреча фронтенд разработчиков",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355926503,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"calendar@corp.mail.ru",
+					"name":"\"Календарь@Mail.Ru\""
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Напоминание о событии Встреча фронтенд разработчиков",
+			"priority":3
+		},
+		{
+			"id":"13559192720000000986",
+			"prev":"13559265030000000487",
+			"next":"13559117260000000182",
+			"subject":"[Allusers] 21 декабря - Детская Новогодняя Ёлка!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355919259,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Напоминаем, что   традиционная Новогодняя Ёлка для детей состоится   21 декабря, в",
+			"priority":3
+		},
+		{
+			"id":"13559117260000000182",
+			"prev":"13559192720000000986",
+			"next":"13559074420000000602",
+			"subject":"<Без темы>",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355911724,
+			"size":544,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.shabalina@gmail.com",
+					"name":"Svetlana Shabalina"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"--   Hugs,  Svetlana  ",
+			"priority":3
+		},
+		{
+			"id":"13559074420000000602",
+			"prev":"13559117260000000182",
+			"next":"13559056890000000025",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355907417,
+			"size":261,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, дорогие коллеги!  Сегодня, 19 декабря, поздравляем с Днём Рождения:  Алину Коваленко   ",
+			"priority":3
+		},
+		{
+			"id":"13559056890000000025",
+			"prev":"13559074420000000602",
+			"next":"13559050070000000470",
+			"subject":"[Allusers] Опрос уровня удовлетворенности сотрудников - День третий!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355905677,
+			"size":181,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@ml.corp.mail.ru",
+					"name":"\"allusers@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"[Дублирую для тех кого нет в рассылке   allcompany  ]  Коллеги, приветствую,  Сегодня   третий  день",
+			"priority":3
+		},
+		{
+			"id":"13559050070000000470",
+			"prev":"13559056890000000025",
+			"next":"13559049720000000764",
+			"subject":"[Allcompany] Опрос уровня удовлетворенности сотрудников - День третий!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355904996,
+			"size":181,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую,  Сегодня   третий  день опроса вашего мнения о нашей компании.   50% сотрудник",
+			"priority":3
+		},
+		{
+			"id":"13559049720000000764",
+			"prev":"13559050070000000470",
+			"next":"13558328500000000091",
+			"subject":"Andrew Sumin приглашает вас на событие \"Встреча фронтенд разработчиков\"",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355904972,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"calendar@corp.mail.ru",
+					"name":"\"Календарь@Mail.Ru\""
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Andrew Sumin    приглашает вас на событие   «  Встреча фронтенд разработчиков  »  .   Начало события",
+			"priority":3
+		},
+		{
+			"id":"13558328500000000091",
+			"prev":"13559049720000000764",
+			"next":"13558312270000000119",
+			"subject":"[Allusers] Билеты на Елки от нового проекта Дети@Mail.Ru сотрудникам и их детям!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355832181,
+			"size":80,
+			"folder":"0",
+			"from":[
+				{
+					"email":"n.bogdanova@corp.mail.ru",
+					"name":"Богданова Нина"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Билеты на Елки от нового проекта   Дети@Mail.Ru  сотрудникам и их детям!  Дорогие коллеги! Проект   ",
+			"priority":3
+		},
+		{
+			"id":"13558312270000000119",
+			"prev":"13558328500000000091",
+			"next":"13558306470000000978",
+			"subject":"[Eap] заполнение опроса",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355831224,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"artamonova@corp.mail.ru",
+					"name":"Anna Artamonova"
+				}
+			],
+			"to":[
+				{
+					"email":"eap@ml.corp.mail.ru",
+					"name":"eap"
+				}
+			],
+			"snippet":"Товарищи, поактивнее заполняем опрос, не позорим мою седую голову.  Анна Артамонова,   вице-президен",
+			"priority":3
+		},
+		{
+			"id":"13558306470000000978",
+			"prev":"13558312270000000119",
+			"next":"13558149320000000693",
+			"subject":"[Allcompany] Опрос уровня удовлетворенности сотрудников - День второй и первая статистика",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355830622,
+			"size":183,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую,  Сегодня второй день опроса вашего мнения о нашей компании. Спасибо тем 900 че",
+			"priority":3
+		},
+		{
+			"id":"13558149320000000693",
+			"prev":"13558306470000000978",
+			"next":"13558139350000000727",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355814913,
+			"size":597,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 18 декабря, поздравляем с Днём Рождения:  Антона Мальгинова ",
+			"priority":3
+		},
+		{
+			"id":"13558139350000000727",
+			"prev":"13558149320000000693",
+			"next":"13557649480000000814",
+			"subject":"[Allcompany]  Moscow Django Meetup 21 ноября в офисе Mail.Ru Group!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355813926,
+			"size":19,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!   Рады сообщить, что 20 декабря, в четверг, с 19.00 до 22.00 пройдет очередная встр",
+			"priority":3
+		},
+		{
+			"id":"13557649480000000814",
+			"prev":"13558139350000000727",
+			"next":"13557507730000000207",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355764912,
+			"size":572,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.tayupova@corp.mail.ru",
+					"name":"Мадина Таюпова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Обновления, события, запуски:   Б",
+			"priority":3
+		},
+		{
+			"id":"13557507730000000207",
+			"prev":"13557649480000000814",
+			"next":"13557492530000000704",
+			"subject":"Re[2]: Функции приезжающие из ajs.js, Array.js(почты) и String.js(почты) / Расширения объектов Array, Object, String, String.prototype, Function.prototype / Планы на расширение Object, Number, String.prototype // Number.prototype.clz",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355750772,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"to":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				}
+			],
+			"snippet":"Number.prototype.clz   - Простой алгоритм подсчета количества значимых нулей  /**  * http://en.wikip",
+			"priority":3
+		},
+		{
+			"id":"13557492530000000704",
+			"prev":"13557507730000000207",
+			"next":"13557492230000000229",
+			"subject":"[Allusers] MAILRUWOOD PARTY уже завтра: спешите, последние часы голосования Mail People Awards!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355749246,
+			"size":14,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Мы напоминаем, что сегодня   –  последний день голосования за финалистов новогодне",
+			"priority":3
+		},
+		{
+			"id":"13557492230000000229",
+			"prev":"13557492530000000704",
+			"next":"13557474100000000055",
+			"subject":"Папки для fest шаблонов",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355749234,
+			"size":14,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Шкинев Дмитрий"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Абашкин Александр"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"Иван Чашкин"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"Демидов Владимир"
+				},
+				{
+					"email":"o.alekseeva@corp.mail.ru",
+					"name":"Ольга Алексеева"
+				},
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				},
+				{
+					"email":"a.eprev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Некоторые соглашения, которые рекомендуется принять:  — все fest шаблоны лежат в папке data/ru/fest;",
+			"priority":3
+		},
+		{
+			"id":"13557474100000000055",
+			"prev":"13557492230000000229",
+			"next":"13557459980000000844",
+			"subject":"Re: Функции приезжающие из ajs.js, Array.js(почты) и String.js(почты) / Расширения объектов Array, Object, String, String.prototype, Function.prototype / Планы на расширение Object, Number, String.prototype",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355747422,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				}
+			],
+			"to":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"snippet":"Number.prototype.  clz  ECMA-262 6th Edition, 15.7.3.13  что это за функция?  ",
+			"priority":3
+		},
+		{
+			"id":"13557459980000000844",
+			"prev":"13557474100000000055",
+			"next":"13557454190000000134",
+			"subject":"[Mail] Пицца и вкусности сегодня.",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355745989,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"zaretskiy@corp.mail.ru",
+					"name":"Илья Зарецкий"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Приходите сегодня на большую кухню в пять вечера поесть пиццы и выпить соков в честь моего ДР.  Буду",
+			"priority":3
+		},
+		{
+			"id":"13557454190000000134",
+			"prev":"13557459980000000844",
+			"next":"13557317650000000025",
+			"subject":"Функции приезжающие из ajs.js, Array.js(почты) и String.js(почты) / Расширения объектов Array, Object, String, String.prototype, Function.prototype / Планы на расширение Object, Number, String.prototype",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355745418,
+			"size":37,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Egor Halimonenko"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Константин Лебедев"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Дмитрий Шкинев"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Александр Абашкин"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"Иван Чашкин"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"Владимир Демидов"
+				},
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Андрей Сумин"
+				},
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Станислав Туговиков"
+				},
+				{
+					"email":"o.alekseeva@corp.mail.ru",
+					"name":"Ольга Алексеева"
+				}
+			],
+			"snippet":"В ajs реализуются следующие функции (используются нативные, при наличии):  Array   Array.  forEach  ",
+			"priority":3
+		},
+		{
+			"id":"13557317650000000025",
+			"prev":"13557454190000000134",
+			"next":"13557308150000000545",
+			"subject":"[Allcompany] ВНИМАНИЕ: Опрос уровня удовлетворенности сотрудников Mail.Ru Group начался!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355731698,
+			"size":449,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую  !  Вы конечно не могли не заметить сегодня плакаты по офису и раздаточные мате",
+			"priority":1
+		},
+		{
+			"id":"13557308150000000545",
+			"prev":"13557317650000000025",
+			"next":"13556776090000000632",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355730754,
+			"size":1784,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, дорогие коллеги!  В субботу, 15 декабря, праздновали свой День рождения:  Елена Рязанов",
+			"priority":3
+		},
+		{
+			"id":"13556776090000000632",
+			"prev":"13557308150000000545",
+			"next":"13554984160000000460",
+			"subject":"[Allcompany] Опрос сотрудников",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355677602,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"grishin@corp.mail.ru",
+					"name":"Dmitry Grishin"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"allcompany"
+				}
+			],
+			"snippet":"Привет!  В этом году мы хотим ввести системный подход к получению обратной связи от сотрудников о то",
+			"priority":3
+		},
+		{
+			"id":"13554984160000000460",
+			"prev":"13556776090000000632",
+			"next":"13554971920000000935",
+			"subject":"[Allusers] браслет на НГ корпоратив!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355498411,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"troitskaya@corp.mail.ru",
+					"name":"Троицкая Наталья"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Дорогие коллеги!  Уже совсем скоро - 18 декабря - состоится НОВОГОДНЯЯ MAILRUWOOD PARTY!  https://sy",
+			"priority":3
+		},
+		{
+			"id":"13554971920000000935",
+			"prev":"13554984160000000460",
+			"next":"13554932990000000943",
+			"subject":"[Allusers] Поймать последние дни Теплого декабря",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355497179,
+			"size":82,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Совсем немного времени осталось до завершения проекта   «  Теплый  декабрь  »  ост",
+			"priority":3
+		},
+		{
+			"id":"13554932990000000943",
+			"prev":"13554971920000000935",
+			"next":"13554931920000000029",
+			"subject":"Re[3]: Сборщик",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355493298,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				},
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Абашкин Александр"
+				},
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"Кренин Владимир"
+				},
+				{
+					"email":"o.alekseeva@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Пишу всем.  Посмотрел задачу внимательно, обсудили с Костей.  https://confluence.mail.ru/pages/viewp",
+			"priority":3
+		},
+		{
+			"id":"13554931920000000029",
+			"prev":"13554932990000000943",
+			"next":"13554928400000000554",
+			"subject":"Re[3]: Сборщик",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355493191,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				}
+			],
+			"to":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"snippet":"Если Саша на следующей неделе займется сборщиком, не возражаю. Надеюсь, она у него займет менее неде",
+			"priority":3
+		},
+		{
+			"id":"13554928400000000554",
+			"prev":"13554931920000000029",
+			"next":"13554918560000000907",
+			"subject":"Re[2]: Сборщик",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355492840,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"Поговорил с Сашей.  Импорт он говорит доделал, а это блокер для запуска АК.  Дальше FAQ это как раз ",
+			"priority":3
+		},
+		{
+			"id":"13554918560000000907",
+			"prev":"13554928400000000554",
+			"next":"13554917880000000080",
+			"subject":"Re: Сборщик",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355491855,
+			"size":6,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"snippet":"А кто Оле это объяснит, чтобы она не отморозилась?  Пятница, 14 декабря 2012, 17:29  от Andrew Sumin",
+			"priority":3
+		},
+		{
+			"id":"13554917880000000080",
+			"prev":"13554918560000000907",
+			"next":"13554675220000000559",
+			"subject":"Сборщик",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355491787,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				},
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				}
+			],
+			"snippet":"Посмотрел задачу внимательно, обсудили с Костей.  https://confluence.mail.ru/pages/viewpage.action?p",
+			"priority":3
+		},
+		{
+			"id":"13554675220000000559",
+			"prev":"13554917880000000080",
+			"next":"13554646110000000374",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355467511,
+			"size":286,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 14 декабря, поздравляем с Днём Рождения:  Антона Лаврушкина ",
+			"priority":3
+		},
+		{
+			"id":"13554646110000000374",
+			"prev":"13554675220000000559",
+			"next":"13554234260000000522",
+			"subject":"[Allusers] Неделя здоровья - В здоровом теле  здоровый дух!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355464602,
+			"size":51,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, доброе утро!  Сегодня пятница, финальный день акции   «  Неделя здоровья в Mail.Ru Group  »",
+			"priority":3
+		},
+		{
+			"id":"13554234260000000522",
+			"prev":"13554646110000000374",
+			"next":"13552103480000000491",
+			"subject":"[Eap] внимание сотрудников бизнес-юнита Email&Portal компании Mail.Ru",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355423412,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"artamonova@corp.mail.ru",
+					"name":"Anna Artamonova"
+				}
+			],
+			"to":[
+				{
+					"email":"eap@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Добрый день дорогие коллеги,  На следующей неделе наш HR-отдел собирается провести онлайн-опрос сотр",
+			"priority":3
+		},
+		{
+			"id":"13552103480000000491",
+			"prev":"13554234260000000522",
+			"next":"13552085310000000783",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355210333,
+			"size":259,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 11 декабря, поздравляем с Днём Рождения:  Екатерину Шпинь (Б",
+			"priority":3
+		},
+		{
+			"id":"13552085310000000783",
+			"prev":"13552103480000000491",
+			"next":"13552050680000000817",
+			"subject":"[Allusers] Теплый декабрь продолжается!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355208520,
+			"size":128,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  В компании  продолжается  «Теплый декабрь» -   благотворительный проект, который п",
+			"priority":3
+		},
+		{
+			"id":"13552050680000000817",
+			"prev":"13552085310000000783",
+			"next":"13551665520000000786",
+			"subject":"[Allusers] Неделя здоровья - День Зрения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355205055,
+			"size":48,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, доброе утро!  Неделя здоровья продолжается.   Второй день   –  посвящён зрению.   Для вас м",
+			"priority":3
+		},
+		{
+			"id":"13551665520000000786",
+			"prev":"13552050680000000817",
+			"next":"13551453140000000300",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1355166511,
+			"size":888,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.sorokina@corp.mail.ru",
+					"name":"Elena Sorokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Обновления, события, запуски:   А",
+			"priority":3
+		},
+		{
+			"id":"13551453140000000300",
+			"prev":"13551665520000000786",
+			"next":"13551386980000000758",
+			"subject":"Карта кабинетов",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355145313,
+			"size":2,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.zherdev@corp.mail.ru",
+					"name":"Anatoly Zherdev"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Привет, Костя, ты зачем сидишь на моей голове? :) В карте кабинетов твоё рабочее место расположено п",
+			"priority":3
+		},
+		{
+			"id":"13551386980000000758",
+			"prev":"13551453140000000300",
+			"next":"13551318760000000149",
+			"subject":"[Mail] Как собирать python-модули в rpm",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355137539,
+			"size":14,
+			"folder":"0",
+			"from":[
+				{
+					"email":"p.zinovkin@corp.mail.ru",
+					"name":"Павел Зиновкин"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"По просьбе админов опишу как собирать скрипты на питоне в виде rpm.  Потребуется несколько rpm-ок от",
+			"priority":3
+		},
+		{
+			"id":"13551318760000000149",
+			"prev":"13551386980000000758",
+			"next":"13551310430000000090",
+			"subject":"[Allusers] Детская Новогодняя Ёлка!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355131869,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Рады сообщить, что   традиционная Новогодняя Ёлка для детей состоится   21 декабря",
+			"priority":3
+		},
+		{
+			"id":"13551310430000000090",
+			"prev":"13551318760000000149",
+			"next":"13551288530000000520",
+			"subject":"[Allusers] Новогодние каникулы с 30 декабря по 8 января.",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355131032,
+			"size":10,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Впереди Новогодние праздники.   Это означает, что для сотрудников с обычным график",
+			"priority":3
+		},
+		{
+			"id":"13551288530000000520",
+			"prev":"13551310430000000090",
+			"next":"13551238330000000271",
+			"subject":"[Allusers] КАРТА КАБИНЕТОВ",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355128844,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.rukavitsin@corp.mail.ru",
+					"name":"Denis Rukavitsin"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Уважаемые коллеги, доброе утро!  На   sys  .  mail  .  ru  (  Мы@  mail  .  ru  ) теперь можно не то",
+			"priority":3
+		},
+		{
+			"id":"13551238330000000271",
+			"prev":"13551288530000000520",
+			"next":"13551197840000000985",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355123795,
+			"size":1148,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  В субботу, 8 декабря, праздновали свой День рождения:  Анна Борисенко",
+			"priority":3
+		},
+		{
+			"id":"13551197840000000985",
+			"prev":"13551238330000000271",
+			"next":"13551191410000000171",
+			"subject":"Undeliverable mail: Hi",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":false,
+			"date":1355119782,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"MAILER-DAEMON@main.rgs.ru",
+					"name":"MAILER-DAEMON@main.rgs.ru"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Failed to deliver to &apos;52017mkp1@tyumen.rgs.ru&apos; SMTP module(domain [10.72.1.3]) reports:  h",
+			"priority":3
+		},
+		{
+			"id":"13551191410000000171",
+			"prev":"13551197840000000985",
+			"next":"13548681580000000040",
+			"subject":"[Allusers] Неделя здоровья - День Здорового Сердца!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1355119132,
+			"size":50,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги,  доброе утро!  Сегодня стартует акция Неделя здоровья,   первый день которой посвящен здоро",
+			"priority":3
+		},
+		{
+			"id":"13548681580000000040",
+			"prev":"13551191410000000171",
+			"next":"13548659010000000237",
+			"subject":"[Mail] Изменена схема statistic_db",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354863070,
+			"size":6,
+			"folder":"0",
+			"from":[
+				{
+					"email":"p.zinovkin@corp.mail.ru",
+					"name":"Павел Зиновкин"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Суть изменения в разбиении общей таблицы на 4-ре по типам. Префиксы убраны.  Причина - плохой дизайн",
+			"priority":3
+		},
+		{
+			"id":"13548659010000000237",
+			"prev":"13548681580000000040",
+			"next":"13548641140000000650",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354865843,
+			"size":560,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 7 декабря, поздравляем с Днём Рождения:  Евгения Гусенкова  ",
+			"priority":3
+		},
+		{
+			"id":"13548641140000000650",
+			"prev":"13548659010000000237",
+			"next":"13548032360000000978",
+			"subject":"[Allusers] Скидки в интернет-магазине Philips для сотрудников Mail.Ru Group!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354864100,
+			"size":37,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.klimova@corp.mail.ru",
+					"name":"Alexandra Klimova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Рады сообщить, что специально для сотрудников нашей компании действуют корпоративн",
+			"priority":3
+		},
+		{
+			"id":"13548032360000000978",
+			"prev":"13548641140000000650",
+			"next":"13548024190000000833",
+			"subject":"[Allcompany] Амиго - все друзья вместе!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354800563,
+			"size":15,
+			"folder":"0",
+			"from":[
+				{
+					"email":"amigo@corp.mail.ru",
+					"name":"Амиго"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Дорогие коллеги!  Как вы знаете, мы готовимся к запуску полноценной версии нашего браузера  Амиго  с",
+			"priority":3
+		},
+		{
+			"id":"13548024190000000833",
+			"prev":"13548032360000000978",
+			"next":"13547997450000000807",
+			"subject":"[Allusers] Опрос - проект Файлы Mail.Ru",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354802414,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую вас, уважаемые коллеги.  Пришла пора делать из проекта Файлы Mail.Ru современный и полез",
+			"priority":3
+		},
+		{
+			"id":"13547997450000000807",
+			"prev":"13548024190000000833",
+			"next":"13547783740000000551",
+			"subject":"[Allcompany] «Аллоды» в ваших мобильных!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354799737,
+			"size":127,
+			"folder":"0",
+			"from":[
+				{
+					"email":"morozova@corp.mail.ru",
+					"name":"Яна Морозова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"«Аллоды» в ваших мобильных!  Дорогие коллеги! Сегодня мы выпустили в   AppStore  новую мобильную игр",
+			"priority":3
+		},
+		{
+			"id":"13547783740000000551",
+			"prev":"13547997450000000807",
+			"next":"13547147950000000671",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354778310,
+			"size":487,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 6 декабря, поздравляем с Днём Рождения:  Марину Юрданову   М",
+			"priority":3
+		},
+		{
+			"id":"13547147950000000671",
+			"prev":"13547783740000000551",
+			"next":"13547020210000000804",
+			"subject":"[Allcompany] Изменения в рекламном отделе",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354714773,
+			"size":11,
+			"folder":"0",
+			"from":[
+				{
+					"email":"grishin@corp.mail.ru",
+					"name":"Dmitry Grishin"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"allcompany"
+				}
+			],
+			"snippet":"Привет!  Хочу сообщить о важных изменениях  в  нашей компании. По взаимной договоренности, нас  поки",
+			"priority":3
+		},
+		{
+			"id":"13547020210000000804",
+			"prev":"13547147950000000671",
+			"next":"13546925790000000515",
+			"subject":"[Allusers] Новогодний корпоратив!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354702015,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"troitskaya@corp.mail.ru",
+					"name":"Троицкая Наталья"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Дорогие коллеги!  Рады вам сообщить, что 18 декабря состоится НОВОГОДНЯЯ MAILRUWOOD PARTY!  В этот в",
+			"priority":3
+		},
+		{
+			"id":"13546925790000000515",
+			"prev":"13547020210000000804",
+			"next":"13546914190000000901",
+			"subject":"[Allusers] Conversation English Club в офисе",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354692572,
+			"size":38,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Рады сообщить, что с  декабря в офисе компании открывается Английский клуб  –   Co",
+			"priority":3
+		},
+		{
+			"id":"13546914190000000901",
+			"prev":"13546925790000000515",
+			"next":"13546200950000000211",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354691386,
+			"size":329,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 5 декабря, поздравляем с Днём Рождения:  Ольгу Шидловскую   ",
+			"priority":3
+		},
+		{
+			"id":"13546200950000000211",
+			"prev":"13546914190000000901",
+			"next":"13546182980000000275",
+			"subject":"[Allusers] FW: [Allcompany] Идеи для логотипа \"MY.com\"",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354620086,
+			"size":18,
+			"folder":"0",
+			"from":[
+				{
+					"email":"gedgafova@corp.mail.ru",
+					"name":"Veronika Gedgafova"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!    Голосование началось, спешите.  Напоминаю, что в большой переговорной 5го этажа ",
+			"priority":3
+		},
+		{
+			"id":"13546182980000000275",
+			"prev":"13546200950000000211",
+			"next":"13546170670000000461",
+			"subject":"[Allusers] Неделя здоровья в Mail.Ru Group!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354618285,
+			"size":76,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие,  коллеги!  Наверняка все помнят, что впереди новогодние каникулы, и нам очень хочется,  что",
+			"priority":3
+		},
+		{
+			"id":"13546170670000000461",
+			"prev":"13546182980000000275",
+			"next":"13546085900000000986",
+			"subject":"[Allusers] Новый Офис Mail.Ru Group",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354617037,
+			"size":18,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.rukavitsin@corp.mail.ru",
+					"name":"Denis Rukavitsin"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие друзья,  Совсем скоро, весной 2013 г., нам предстоит переезд в наш новый офис - одну из баше",
+			"priority":3
+		},
+		{
+			"id":"13546085900000000986",
+			"prev":"13546170670000000461",
+			"next":"13545491720000000801",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354608563,
+			"size":236,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 4 декабря, поздравляем с Днём Рождения:  Оксану Лысенко   Ст",
+			"priority":3
+		},
+		{
+			"id":"13545491720000000801",
+			"prev":"13546085900000000986",
+			"next":"13545382320000000924",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1354549122,
+			"size":760,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.sorokina@corp.mail.ru",
+					"name":"Elena Sorokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Обновления, события, запуски:   Д",
+			"priority":3
+		},
+		{
+			"id":"13545382320000000924",
+			"prev":"13545491720000000801",
+			"next":"13545245390000000989",
+			"subject":"[Allcompany] Идеи для логотипа \"MY.com\"",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354538215,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"grishin@corp.mail.ru",
+					"name":"Dmitry Grishin"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"allcompany"
+				}
+			],
+			"snippet":"Привет,  Как вы все знаете, совсем недавно мы стали обладателями очень короткого и звучного домена &",
+			"priority":3
+		},
+		{
+			"id":"13545245390000000989",
+			"prev":"13545382320000000924",
+			"next":"13542924000000000206",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354524518,
+			"size":1221,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Добрый день, дорогие коллеги!  В субботу, 1 декабря, праздновали свой День рождения:  Сергей Ершов  ",
+			"priority":3
+		},
+		{
+			"id":"13542924000000000206",
+			"prev":"13545245390000000989",
+			"next":"13542866280000000663",
+			"subject":"[Allusers] Эксперимент с рабочим пространством",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354260409,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, приветствую, Хотел бы довести до вашего сведения, что в компании, на базе пилотной группы О",
+			"priority":3
+		},
+		{
+			"id":"13542866280000000663",
+			"prev":"13542924000000000206",
+			"next":"13542846010000000839",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354286625,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"ischenko@corp.mail.ru",
+					"name":"Aleksey Ischenko"
+				}
+			],
+			"to":[
+				{
+					"email":"m.glekov@corp.mail.ru",
+					"name":"Maxim Glekov"
+				}
+			],
+			"snippet":"У нас оказывается есть корпоративный яммер (Твиттер для организаций). Как думаете, может стоит через",
+			"priority":3
+		},
+		{
+			"id":"13542846010000000839",
+			"prev":"13542866280000000663",
+			"next":"13542796260000000493",
+			"subject":"[Allusers] пользование лифтами 3го подъезда - МАКСИМУМ 6 человек одновременно",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354284593,
+			"size":11,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.rukavitsin@corp.mail.ru",
+					"name":"Denis Rukavitsin"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, добрый день,   В очередной раз группа наших сотрудников оказалась заблокированной в одном и",
+			"priority":3
+		},
+		{
+			"id":"13542796260000000493",
+			"prev":"13542846010000000839",
+			"next":"13542708010000000625",
+			"subject":"[Mail] Увидел проблему - заведи таск",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354279584,
+			"size":6,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Привет.  Если вы увидели баг в почте на ЖИВОМ (не на пре, омеге итд), то ставьте, пожалуйста, таск. ",
+			"priority":3
+		},
+		{
+			"id":"13542708010000000625",
+			"prev":"13542796260000000493",
+			"next":"13542697590000000789",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354270406,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"m.glekov@corp.mail.ru",
+					"name":"Maxim Glekov"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Могу в нее автоматом слать письма о том что выкатывается через  раскладчик в наших репозитариях. On ",
+			"priority":3
+		},
+		{
+			"id":"13542697590000000789",
+			"prev":"13542708010000000625",
+			"next":"13542691580000000742",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354269745,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"to":[
+				{
+					"email":"ischenko@corp.mail.ru",
+					"name":"Aleksey Ischenko"
+				}
+			],
+			"snippet":"Если все кто в той конфе согласны -- без проблем.  Но &quot;где можно востановить что вообще выкатыв",
+			"priority":3
+		},
+		{
+			"id":"13542691580000000742",
+			"prev":"13542697590000000789",
+			"next":"13542689940000000726",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354269136,
+			"size":15,
+			"folder":"0",
+			"from":[
+				{
+					"email":"ischenko@corp.mail.ru",
+					"name":"Aleksey Ischenko"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"Володь,  А можно ли клиентские выкатки писать только в mailroll? (Чтоб это было единым местом, где м",
+			"priority":3
+		},
+		{
+			"id":"13542689940000000726",
+			"prev":"13542691580000000742",
+			"next":"13542666290000000786",
+			"subject":"[Allusers] FW: видеосъемка начинается!!!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354268981,
+			"size":41,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, начинается видеосъемка новогоднего ролика!  Мы очень хотим, чтобы он получился красивым и к",
+			"priority":3
+		},
+		{
+			"id":"13542666290000000786",
+			"prev":"13542689940000000726",
+			"next":"13542648730000000133",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354266612,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"snippet":"Кстати, да, Володя прав, про отдельную конфу для выкаток верстки я забыл.  Птн 30 Ноя 2012 12:40:49 ",
+			"priority":3
+		},
+		{
+			"id":"13542648730000000133",
+			"prev":"13542666290000000786",
+			"next":"13542633770000000489",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354264849,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"&gt;  Сейчас выкатки разбросаны по двум конфам - админской и clientside. И во второй много мусора  В",
+			"priority":3
+		},
+		{
+			"id":"13542633770000000489",
+			"prev":"13542648730000000133",
+			"next":"13542617130000000716",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354263362,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"v.starodub@corp.mail.ru",
+					"name":"Виктор Стародуб"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"snippet":"Я говорил про то, что писать одно и тоже два раза неоправданно неудобно. Неоправдано -- т.к. вроде б",
+			"priority":3
+		},
+		{
+			"id":"13542617130000000716",
+			"prev":"13542633770000000489",
+			"next":"13542616310000000126",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354261709,
+			"size":12,
+			"folder":"0",
+			"from":[
+				{
+					"email":"isaikin@corp.mail.ru",
+					"name":"Дмитрий Исайкин"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"snippet":"Насколько я знаю, выкатываемые таски у них во вкладках открыты всегда.  Во всяком случае у Ильи.  Пт",
+			"priority":3
+		},
+		{
+			"id":"13542616310000000126",
+			"prev":"13542617130000000716",
+			"next":"13542612450000000607",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354261611,
+			"size":283,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 30 ноября, поздравляем с Днём Рождения:  Юрия Вострикова   В",
+			"priority":3
+		},
+		{
+			"id":"13542612450000000607",
+			"prev":"13542616310000000126",
+			"next":"13542575400000000231",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354258695,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"isaikin@corp.mail.ru",
+					"name":"Дмитрий Исайкин"
+				}
+			],
+			"snippet":"В теории можем. Надо писать ли код или джира позволяет из коробки, сходу не скажу.  И потом - админ ",
+			"priority":3
+		},
+		{
+			"id":"13542575400000000231",
+			"prev":"13542612450000000607",
+			"next":"13542551550000000132",
+			"subject":"Returned mail: see transcript for details",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":false,
+			"date":1354261141,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sun_way@mail.ru",
+					"name":"sun_way@mail.ru"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"This Message was undeliverable due to the following reason: Your message was not delivered because t",
+			"priority":3
+		},
+		{
+			"id":"13542551550000000132",
+			"prev":"13542575400000000231",
+			"next":"13542513070000000079",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354255150,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"v.starodub@corp.mail.ru",
+					"name":"Виктор Стародуб"
+				}
+			],
+			"snippet":"Это не всем удобно. В конфах много лишнего  Денис Аникин  Технический руководитель   Почты@Mail.Ru  ",
+			"priority":3
+		},
+		{
+			"id":"13542513070000000079",
+			"prev":"13542551550000000132",
+			"next":"13542206230000000186",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354251303,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"isaikin@corp.mail.ru",
+					"name":"Дмитрий Исайкин"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"Мы можем как-нибудь интегрировать это в джиру?  Например, специальный тэг MailRoll у задачи на MNT а",
+			"priority":3
+		},
+		{
+			"id":"13542206230000000186",
+			"prev":"13542513070000000079",
+			"next":"13542098770000000566",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354220610,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"v.starodub@corp.mail.ru",
+					"name":"Виктор Стародуб"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"А если туда писать то же, что и в конфы, может, лучше, содержимое соответствующих конференций по поч",
+			"priority":3
+		},
+		{
+			"id":"13542098770000000566",
+			"prev":"13542206230000000186",
+			"next":"13542098160000000648",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354209862,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"platonov@corp.mail.ru",
+					"name":"Игорь Платонов"
+				}
+			],
+			"snippet":"Ну видимо не создалась еще  Чтв 29 Ноя 2012 21:23:32 от Игорь Платонов   &lt;  platonov@corp.mail.ru",
+			"priority":3
+		},
+		{
+			"id":"13542098160000000648",
+			"prev":"13542098770000000566",
+			"next":"13542096020000000271",
+			"subject":"Re: [Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354209812,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"platonov@corp.mail.ru",
+					"name":"Игорь Платонов"
+				}
+			],
+			"to":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"snippet":"чет нету такой.  ---   Best regards,   Igor Platonov   Mail.Ru TechDept   MAgent: platonov@corp.mail",
+			"priority":3
+		},
+		{
+			"id":"13542096020000000271",
+			"prev":"13542098160000000648",
+			"next":"13541874580000000725",
+			"subject":"[Mail] Конфа для выкаток",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354209587,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"anikin@corp.mail.ru",
+					"name":"Аникин Денис"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Всем привет.  Создал конфу mailroll@  В нее пишем факт каждой выкатки.  Зачем это надо? Чтобы все, к",
+			"priority":3
+		},
+		{
+			"id":"13541874580000000725",
+			"prev":"13542096020000000271",
+			"next":"13541865150000000382",
+			"subject":"[Allusers] видеосъемка начинается!!!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354187452,
+			"size":34,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, начинается видеосъемка новогоднего ролика!  Мы очень хотим, чтобы он получился красивым и к",
+			"priority":3
+		},
+		{
+			"id":"13541865150000000382",
+			"prev":"13541874580000000725",
+			"next":"13541754310000000628",
+			"subject":"[Allusers] Объявляем конкурс",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354186509,
+			"size":16,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Вы наверняка в курсе, что недавно у нас появился свой, красивый и современный план",
+			"priority":3
+		},
+		{
+			"id":"13541754310000000628",
+			"prev":"13541865150000000382",
+			"next":"13541116840000000009",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354175419,
+			"size":315,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 29 ноября, поздравляем с Днём Рождения:  Ксению Строкову  Мл",
+			"priority":3
+		},
+		{
+			"id":"13541116840000000009",
+			"prev":"13541754310000000628",
+			"next":"13541089160000000491",
+			"subject":"[Mail] тестирование",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354111678,
+			"size":5,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sumin@corp.mail.ru",
+					"name":"Andrew Sumin"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"У нас есть первый прототип офлайн почты.  Работает ТОЛЬКО в хроме.  Немного глючит.  Кто хочет стать",
+			"priority":3
+		},
+		{
+			"id":"13541089160000000491",
+			"prev":"13541116840000000009",
+			"next":"13540884840000000772",
+			"subject":"[Allusers] Напоминаем. Cъемка в офисе новогоднего ролика.",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354108906,
+			"size":26,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги, добрый день!  Напоминаем, что   29 и 30 ноября  в офисы компании будет приглашен видеоопера",
+			"priority":3
+		},
+		{
+			"id":"13540884840000000772",
+			"prev":"13541089160000000491",
+			"next":"13540186910000000905",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354088468,
+			"size":381,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 28 ноября, поздравляем с Днём Рождения:  Севиль Шайхиеву   Б",
+			"priority":3
+		},
+		{
+			"id":"13540186910000000905",
+			"prev":"13540884840000000772",
+			"next":"13540030610000000789",
+			"subject":"Fwd: jser.pl",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1354018691,
+			"size":11,
+			"folder":"0",
+			"from":[
+				{
+					"email":"ischenko@corp.mail.ru",
+					"name":"Aleksey Ischenko"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Константин Лебедев"
+				}
+			],
+			"snippet":"-------- Пересылаемое сообщение --------  От кого: ischenko   &lt;  ischenko@df2.mail.ru  &gt;  Кому",
+			"priority":3
+		},
+		{
+			"id":"13540030610000000789",
+			"prev":"13540186910000000905",
+			"next":"13539594030000000040",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1354003047,
+			"size":343,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 27 ноября, поздравляем с Днём Рождения:  Виталия Васина   We",
+			"priority":3
+		},
+		{
+			"id":"13539594030000000040",
+			"prev":"13540030610000000789",
+			"next":"13539343560000000331",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1353959383,
+			"size":537,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.sorokina@corp.mail.ru",
+					"name":"Elena Sorokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Мы и внешний мир:  Warface — глав",
+			"priority":3
+		},
+		{
+			"id":"13539343560000000331",
+			"prev":"13539594030000000040",
+			"next":"13539296900000000093",
+			"subject":"Re: Обновление /data/ru/common/ + ajs.Router",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353934355,
+			"size":13,
+			"folder":"0",
+			"from":[
+				{
+					"email":"r.budorin@corp.mail.ru",
+					"name":"Roman Budorin"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"snippet":"https://jira.mail.ru/browse/MAIL-11173  On Nov 26, 2012, at 1:12 PM, RubaXa wrote:  QUnit  http://qu",
+			"priority":3
+		},
+		{
+			"id":"13539296900000000093",
+			"prev":"13539343560000000331",
+			"next":"13539263810000000094",
+			"subject":"files!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353929689,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"kk_test2@mail.ru",
+					"name":"KK TEST 2 бутон и пестик"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"Подпись  --- &apos; --- &quot; --- `   line 3  ",
+			"priority":3
+		},
+		{
+			"id":"13539263810000000094",
+			"prev":"13539296900000000093",
+			"next":"13539261460000000826",
+			"subject":"Andrew Sumin приглашает вас на событие \"Треды\"",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1353926380,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"calendar@corp.mail.ru",
+					"name":"\"Календарь@Mail.Ru\""
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Andrew Sumin    приглашает вас на событие   «  Треды  »  .   Начало события: 26 ноября 16:00  Оконча",
+			"priority":3
+		},
+		{
+			"id":"13539261460000000826",
+			"prev":"13539263810000000094",
+			"next":"13539200720000000276",
+			"subject":"[Allusers] НАСТУПИЛИ  ХОЛОДА - НЕ ЗАБЫВАЕМ ЗАКРЫВАТЬ ОКНА В КОНЦЕ РАБОЧЕГО ДНЯ!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353926132,
+			"size":10,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.rukavitsin@corp.mail.ru",
+					"name":"Denis Rukavitsin"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Уважаемые Коллеги,   В связи с наступлением очень низких температур на улице убедительная просьба сл",
+			"priority":3
+		},
+		{
+			"id":"13539200720000000276",
+			"prev":"13539261460000000826",
+			"next":"13539147580000000660",
+			"subject":"Re: Обновление /data/ru/common/ + ajs.Router",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353920072,
+			"size":2,
+			"folder":"0",
+			"from":[
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Александр  Абашкин"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"snippet":"",
+			"priority":3
+		},
+		{
+			"id":"13539147580000000660",
+			"prev":"13539200720000000276",
+			"next":"13536802890000001008",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353914661,
+			"size":1170,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  В субботу, 24 ноября, праздновали свой День рождения:  Марина Чельдие",
+			"priority":3
+		},
+		{
+			"id":"13536802890000001008",
+			"prev":"13539147580000000660",
+			"next":"13536752570000000400",
+			"subject":"Re: Празднование моего ДР",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353680287,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				}
+			],
+			"to":[
+				{
+					"email":"v.frantskevich@corp.mail.ru",
+					"name":"Владимир Францкевич"
+				},
+				{
+					"email":"v.lunin@corp.mail.ru",
+					"name":"v.lunin"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"a.abashkin"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав"
+				},
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"e.halimonenko"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"qweqweqwe"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"i.chashkin"
+				},
+				{
+					"email":"o.kuritsyna@corp.mail.ru",
+					"name":"Ольга Курицына"
+				},
+				{
+					"email":"e.dydykin@corp.mail.ru",
+					"name":"Егор Дыдыкин"
+				}
+			],
+			"snippet":"Подходите к 18:30  --   Никита  Птн 23 Ноя 2012 16:54:15 от Никита Панферов   &lt;  n.panferov@corp.",
+			"priority":3
+		},
+		{
+			"id":"13536752570000000400",
+			"prev":"13536802890000001008",
+			"next":"13536693790000000952",
+			"subject":"Празднование моего ДР",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353675255,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"n.panferov@corp.mail.ru",
+					"name":"Никита Панферов"
+				}
+			],
+			"to":[
+				{
+					"email":"v.frantskevich@corp.mail.ru",
+					"name":"Владимир Францкевич"
+				},
+				{
+					"email":"v.lunin@corp.mail.ru",
+					"name":"v.lunin"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"a.abashkin"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				},
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав"
+				},
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"e.halimonenko"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"qweqweqwe"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"i.chashkin"
+				},
+				{
+					"email":"o.kuritsyna@corp.mail.ru",
+					"name":"Ольга Курицына"
+				},
+				{
+					"email":"e.dydykin@corp.mail.ru",
+					"name":"Егор Дыдыкин"
+				}
+			],
+			"snippet":"Коллеги,  Приглашаю вас сегодня отпраздновать мой День рождения. Начало в 18:15 на большой кухне.  В",
+			"priority":3
+		},
+		{
+			"id":"13536693790000000952",
+			"prev":"13536752570000000400",
+			"next":"13536593970000000981",
+			"subject":"files 3x",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353669378,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"k.lebedev"
+				}
+			],
+			"snippet":"--  Удалить после прочтения.  ",
+			"priority":3
+		},
+		{
+			"id":"13536593970000000981",
+			"prev":"13536693790000000952",
+			"next":"13536589910000000573",
+			"subject":"[Allcompany] Организационное Развитие -  первые итоги",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353659148,
+			"size":53,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.malikov@corp.mail.ru",
+					"name":"Evgueni Malikov"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@ml.corp.mail.ru",
+					"name":"\"allcompany@ml.corp.mail.ru\""
+				}
+			],
+			"snippet":"Коллеги,  приветствую,  Прошло полтора месяца с момента моего присоединения к команде. Время летит! ",
+			"priority":3
+		},
+		{
+			"id":"13536589910000000573",
+			"prev":"13536593970000000981",
+			"next":"13536570680000000327",
+			"subject":"[Allusers] Cъемка в офисе новогоднего ролика",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353658983,
+			"size":20,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Мы готовим новогодний видеоролик о наших сотрудниках!  29 и 30 ноября  в офисы ком",
+			"priority":3
+		},
+		{
+			"id":"13536570680000000327",
+			"prev":"13536589910000000573",
+			"next":"13535777300000000433",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353657014,
+			"size":1122,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 23 ноября, поздравляем с Днём Рождения:  Родиона Котельников",
+			"priority":3
+		},
+		{
+			"id":"13535777300000000433",
+			"prev":"13536570680000000327",
+			"next":"13535657870000000137",
+			"subject":"[Allusers] Талантливые люди - талантливы во всем!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353577718,
+			"size":90,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие  коллеги!  Мы уверены, что ваши возможности и потенциал безграничны и ни раз в этом убеждали",
+			"priority":3
+		},
+		{
+			"id":"13535657870000000137",
+			"prev":"13535777300000000433",
+			"next":"13535654560000000829",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353565765,
+			"size":590,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 22 ноября, поздравляем с Днём Рождения:  Никиту Окань   Млад",
+			"priority":3
+		},
+		{
+			"id":"13535654560000000829",
+			"prev":"13535657870000000137",
+			"next":"13535222000000000896",
+			"subject":"[Allusers] Проекту Авто нужна ваша помощь",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353565440,
+			"size":9,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Дорогие коллеги!  Проекту Авто нужна ваша помощь.  Если вы:  - неравнодушны к автомобильной тематике",
+			"priority":3
+		},
+		{
+			"id":"13535222000000000896",
+			"prev":"13535654560000000829",
+			"next":"13534814960000000601",
+			"subject":"12434",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353522199,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"mr.rubaxa@yandex.ru",
+					"name":"n/a RubaXa"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"3245325  ",
+			"priority":3
+		},
+		{
+			"id":"13534814960000000601",
+			"prev":"13535222000000000896",
+			"next":"13534234240000000416",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353481475,
+			"size":721,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 21 ноября, поздравляем с Днём Рождения:  Елену Петрову (Лисе",
+			"priority":3
+		},
+		{
+			"id":"13534234240000000416",
+			"prev":"13534814960000000601",
+			"next":"13534113040000000415",
+			"subject":"HighLoad++ с доставкой в регионы и страны СНГ и Балтии",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353423424,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"do-not-reply@lists.ontico.ru",
+					"name":"Conference Team"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Итак, Как вы знаете, на прошлой неделе мы стартовали продажи первого для нас инфопродукта — материал",
+			"priority":3
+		},
+		{
+			"id":"13534113040000000415",
+			"prev":"13534234240000000416",
+			"next":"13533957410000000726",
+			"subject":"[Allcompany] Нам нужны ваши голоса!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353411272,
+			"size":8,
+			"folder":"0",
+			"from":[
+				{
+					"email":"morozova@corp.mail.ru",
+					"name":"Яна Морозова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Дорогие друзья!   Сегодня последний день голосования в Премии Рунета.  Ваш голос может стать решающи",
+			"priority":3
+		},
+		{
+			"id":"13533957410000000726",
+			"prev":"13534113040000000415",
+			"next":"13533422490000000577",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353395724,
+			"size":609,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 20 ноября, поздравляем с Днём Рождения:  Анну Солонину   Рук",
+			"priority":3
+		},
+		{
+			"id":"13533422490000000577",
+			"prev":"13533957410000000726",
+			"next":"13533276740000000979",
+			"subject":"[Allcompany] Новости Mail.Ru Group: про нас и у нас",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":true,
+			"spf":true,
+			"date":1353342224,
+			"size":326,
+			"folder":"0",
+			"from":[
+				{
+					"email":"e.sorokina@corp.mail.ru",
+					"name":"Elena Sorokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":"\"allcompany@corp.mail.ru\""
+				}
+			],
+			"snippet":"Приветствую, коллеги!  Новости Mail.Ru Group за прошедшую неделю:  Мы и внешний мир:  Поиск в Техноп",
+			"priority":3
+		},
+		{
+			"id":"13533276740000000979",
+			"prev":"13533422490000000577",
+			"next":"13533265130000000086",
+			"subject":"Re: [Mail] Пицца. Маленькая кухня. 16:15",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353327671,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sushko@corp.mail.ru",
+					"name":"Alexandr Sushko"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"On 11/19/2012 11:25 AM, Alexandr Sushko wrote: &gt; По случаю моего прошедшего др и по тому поводу, ",
+			"priority":3
+		},
+		{
+			"id":"13533265130000000086",
+			"prev":"13533276740000000979",
+			"next":"13533115870000000520",
+			"subject":"[Allcompany] Победа Warface в Премии Рунета зависит от  вас!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353326485,
+			"size":628,
+			"folder":"0",
+			"from":[
+				{
+					"email":"morozova@corp.mail.ru",
+					"name":"Яна Морозова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Победа  Warface  в Премии Рунета зависит от  вас!   Друзья! Как вам известно, онлайн-шутер  Warface ",
+			"priority":3
+		},
+		{
+			"id":"13533115870000000520",
+			"prev":"13533265130000000086",
+			"next":"13533111950000000929",
+			"subject":"[Mail] Пицца. Маленькая кухня. 16:15",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353309913,
+			"size":3,
+			"folder":"0",
+			"from":[
+				{
+					"email":"sushko@corp.mail.ru",
+					"name":"Alexandr Sushko"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"По случаю моего прошедшего др и по тому поводу, что мне сегодня  исполняется 9138 дней сегодня на ма",
+			"priority":3
+		},
+		{
+			"id":"13533111950000000929",
+			"prev":"13533115870000000520",
+			"next":"13530942160000000231",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353311155,
+			"size":1029,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  В субботу, 17 ноября, праздновали свой День рождения:  Арсентий Черка",
+			"priority":3
+		},
+		{
+			"id":"13530942160000000231",
+			"prev":"13533111950000000929",
+			"next":"13530914960000000270",
+			"subject":"[Mail] (no subject)",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353094196,
+			"size":4,
+			"folder":"0",
+			"from":[
+				{
+					"email":"d.isaev@corp.mail.ru",
+					"name":"Денис Исаев"
+				}
+			],
+			"to":[
+				{
+					"email":"mail@ml.corp.mail.ru",
+					"name":"mail"
+				}
+			],
+			"snippet":"Буду в отпуске до 4 декабря. Если нужен звоните на сотовый.  ",
+			"priority":3
+		},
+		{
+			"id":"13530914960000000270",
+			"prev":"13530942160000000231",
+			"next":"13530777170000000137",
+			"subject":"Re: alpha-246: fix",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353091495,
+			"size":6,
+			"folder":"0",
+			"from":[
+				{
+					"email":"krenin@corp.mail.ru",
+					"name":"krenin"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"RubaXa"
+				}
+			],
+			"snippet":"раскатил, но всё  равно   сломан композ и на выборе темы --  3710: https://alpha.test.mail.ru/settin",
+			"priority":3
+		},
+		{
+			"id":"13530777170000000137",
+			"prev":"13530914960000000270",
+			"next":"13530647450000000625",
+			"subject":"Изменения, прилетевшие в alpha-246",
+			"unread":false,
+			"flagged":false,
+			"reply":true,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353077714,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"s.tugovikov@corp.mail.ru",
+					"name":"Туговиков Станислав Витальевич"
+				}
+			],
+			"to":[
+				{
+					"email":"e.halimonenko@corp.mail.ru",
+					"name":"Егор Халимоненко"
+				},
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":"Лебедев Константин"
+				},
+				{
+					"email":"shkinev@corp.mail.ru",
+					"name":"Шкинев Дмитрий"
+				},
+				{
+					"email":"a.abashkin@corp.mail.ru",
+					"name":"Абашкин Александр"
+				},
+				{
+					"email":"i.chashkin@corp.mail.ru",
+					"name":"Иван Чашкин"
+				},
+				{
+					"email":"v.demidov@corp.mail.ru",
+					"name":"Демидов Владимир"
+				}
+			],
+			"snippet":"— common/js/pager :  простой класс для разбиения некоего набора данных на страницы  —  common/js/pro",
+			"priority":3
+		},
+		{
+			"id":"13530647450000000625",
+			"prev":"13530777170000000137",
+			"next":"13530504400000000067",
+			"subject":"Ваш личный HighLoad++ / материалы конференции за 2010, 2011 и 2012 года",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353064745,
+			"size":7,
+			"folder":"0",
+			"from":[
+				{
+					"email":"do-not-reply@lists.ontico.ru",
+					"name":"Conference Team"
+				}
+			],
+			"to":[
+				{
+					"email":"k.lebedev@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Добрый день! Шесть лет назад, когда мы стартовали HighLoad++ (http://www.highload.ru/), эта конферен",
+			"priority":3
+		},
+		{
+			"id":"13530504400000000067",
+			"prev":"13530647450000000625",
+			"next":"13529654890000000329",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1353050404,
+			"size":495,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 16 ноября, поздравляем с Днём Рождения:  Дарью Байдакову   М",
+			"priority":3
+		},
+		{
+			"id":"13529654890000000329",
+			"prev":"13530504400000000067",
+			"next":"13529044520000000620",
+			"subject":"[Allusers] С Днем Рождения!",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1352965443,
+			"size":766,
+			"folder":"0",
+			"from":[
+				{
+					"email":"shokina@corp.mail.ru",
+					"name":"Liubov Shokina"
+				}
+			],
+			"to":[
+				{
+					"email":"allusers@corp.mail.ru",
+					"name":"\"allusers@corp.mail.ru\""
+				}
+			],
+			"snippet":"Доброе утро, дорогие коллеги!  Сегодня, 15 ноября, поздравляем с Днём Рождения:  Анну Хилюк  Младшег",
+			"priority":3
+		},
+		{
+			"id":"13529044520000000620",
+			"prev":"13529654890000000329",
+			"next":"13528938170000000351",
+			"subject":"[Allcompany] Новый проект студии Allods Team - увлекательная мобильная головоломка Allods Adventure HD",
+			"unread":false,
+			"flagged":false,
+			"reply":false,
+			"forward":false,
+			"attach":false,
+			"spf":true,
+			"date":1352904410,
+			"size":95,
+			"folder":"0",
+			"from":[
+				{
+					"email":"morozova@corp.mail.ru",
+					"name":"Яна Морозова"
+				}
+			],
+			"to":[
+				{
+					"email":"allcompany@corp.mail.ru",
+					"name":null
+				}
+			],
+			"snippet":"Друзья!  Представляем вам новый проект студии Allods Team   —  увлекательную мобильную головоломку A",
+			"priority":3
+		}
+	]
+}, "timers":{}}

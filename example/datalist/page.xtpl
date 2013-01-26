@@ -1,0 +1,36 @@
+<x:tpl ctrl="example.datalist">
+	<x:include src="b-nav.xtpl"/>
+	<x:include src="b-dropdown.xtpl"/>
+	<x:include src="b-toolbar.xtpl"/>
+	<x:include src="b-datalist.xtpl"/>
+
+	<div style="
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		position: fixed;
+		background-size: cover;
+		background-image: url('https://calendar.mail.ru/img/theme/1.jpg');
+	">
+	</div>
+
+	<div style="width: 95%; margin: 20px auto;">
+
+		<div style="float: left; width: 30%;">
+			<div style="margin-right: 40px;">
+				<div class="b-toolbar">
+					<div class="btn"></div>
+				</div>
+				<x:apply name="b-nav" mode="folders" data="ctx.folders"/>
+			</div>
+		</div>
+
+		<div style="margin-left: 30%;">
+			<x:apply name="b-toolbar">ctx.toolbar</x:apply>
+			<x:apply name="b-datalist" data="ctx.datalist"/>
+		</div>
+
+	</div>
+</x:tpl>

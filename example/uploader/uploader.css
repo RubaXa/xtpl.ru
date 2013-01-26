@@ -1,0 +1,83 @@
+.uploader {
+	margin: 20px;
+}
+	/* ELEMENT: uploader__choose */
+	.uploader__choose {
+		color: #333;
+		cursor: pointer;
+		position: relative;
+		padding: 50px 0;
+		border: 3px solid green;
+		border-radius: 10px;
+		font-size: 60px;
+		font-family: "League Gothic", Impact, sans-serif;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(0,0,0,.4);
+		overflow: hidden;
+
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		-webkit-transition: width .3s ease-out;
+		   -moz-transition: width .3s ease-out;
+	}
+		.uploader__choose_hover_dnd {
+			color: #f60;
+			border-color: #f60;
+		}
+
+		.uploader__choose small {
+			margin: 35px 0;
+			display: block;
+			font-size: 50%;
+		}
+
+		input.uploader__choose__inp {
+			top: 0;
+			right: 0;
+			font-size: 300px;
+			height: 100%;
+			opacity: 0;
+			cursor: pointer;
+			position: absolute;
+		}
+
+
+	/* ELEMENT: uploader__list */
+	.uploader__list {
+		float: right;
+		width: 0;
+		opacity: 0;
+		overflow: hidden;
+		height: 240px;
+		font-size: 14px;
+		-webkit-transition: all .3s ease-in;
+		   -moz-transition: all .3s ease-in;
+	}
+		.uploader__list__item {
+			clear: both;
+		}
+			.uploader__list__item__name {
+				float: left;
+				width: 30%;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+			.uploader__list__item__progress {
+				float: left;
+				width: 40%;
+				margin: 0 30px;
+			}
+
+
+/* MOD: uploader_files */
+.uploader_files {}
+	.uploader_files .uploader__choose {
+		width: 45%;
+	}
+	.uploader_files .uploader__list {
+		width: 52%;
+		opacity: 1;
+	}
+
+

@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<title>xtpl — больше, чем JavaScript шаблонизатор</title>
+
+	<meta name="keywords"
+		  content="xtpl, javascript, template, nodejs, browser, server, client, binding, data-binding, MVVM, rubaxa"/>
+
+	<meta name="description"
+		  content="xtpl — JavaScript шаблонизатор нового покаления, работает как на клиенте, так и сервере.
+		           Позволяет связывать данные с шаблоном и многое другое."/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link rel="stylesheet" href="./static/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="./static/css/bootstrap-responsive.css"/>
+	<link rel="stylesheet" href="./static/css/google-code-prettify.css"/>
+
+	<script src="/js/json3.min.js"></script>
+	<script src="/js/jquery.dev.js"></script>
+	<script src="http://mailru.github.com/FileAPI/FileAPI.min.js"></script>
+	<script>document.write('<script src="/js/xtpl.min.js?'+Math.random()+'"><'+'/script>');</script>
+
+	<style>
+		#example {
+			width: 75%;
+			margin: 0 auto 40px;
+			padding: 20px;
+			box-shadow: 0 0 5px rgba(0,0,0,.45);
+			border-radius: 5px;
+		}
+	</style>
+	<link href="./example/shop/shop.css" rel="stylesheet"/>
+	<link href="./example/uploader/uploader.css" rel="stylesheet"/>
+</head>
+<body style="margin: 0; padding: 0;">
+	<x:tpl ctrl="site">
+		<div class="container" style="xdisplay: none; margin-top: 20px;">
+			<div class="row-fluid">
+				<div class="span3">
+					<ul class="nav nav-list well" x:each="item in ctx.examples">
+						<li x:class="{ active: item == ctx.example }" x:click="ctx.selectExample(item);">
+							<a href="#">{{item.name}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="span9" style="position: relative;">
+					<div id="example"></div>
+
+					<ul class="nav nav-tabs" x:each="tab in ctx.example.files">
+						<li x:class="{ active: ctx.tab == tab }">
+							<a href="#" x:click="ctx.selectTab(tab)">{{tab.split('/').pop()}}</a>
+						</li>
+					</ul>
+					<div id="editor" style="width: 100%; height: 400px;">console.log(1);</div>
+				</div>
+			</div>
+		</div>
+	</x:tpl>
+
+
+
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" charset="utf-8"></script>
+
+	<script>
+		xtpl.ctrl('site', function (ctx){
+			var eceMode	= { js: 'javascript', css: 'css', xtpl: 'html' };
+
+			ctx.examples = [
+				{
+					  name: 'Hello'
+					, files: ['hello/hello.xtpl']
+				}
+				, {
+					  name: 'Simple list'
+					, files: ['list/list.xtpl', 'list/list.js']
+				}
+				, {
+					  name: 'Shop cart'
+					, files: ['shop/shop.xtpl', 'shop/shop.js']
+				}
+				, {
+					  name: 'File uploader'
+					, files: ['uploader/uploader.xtpl', 'uploader/uploader.js']
+				}
+			];
+
+
+			ctx.selectExample = function (example){
+				ctx.example = example;
+				ctx.loadExample(example).done(function (){
+					var
+						  file = example.files[0]
+						, content = ctx.example.files[file]
+					;
+
+					$('#example').xtpl(xtpl.compile(file, { content: content }), example.ctx = {});
+					ctx.selectTab(file);
+				});
+			};
+
+
+			ctx.loadExample = function (example){
+				if( !example.defer ){
+					var queue = [];
+
+					xtpl.utils.each(example.files, function (file){
+						queue.push($.get('./example/'+file+'?r=1', function (str){
+							example.files[file] = str;
+						}));
+					});
+
+					example.defer = $.when.apply($, queue).done(function (){
+						setTimeout(ctx.$apply);
+					});
+				}
+
+				return	example.defer;
+			};
+
+
+			ctx.selectTab = function (tab){
+				if( ctx.tab != tab ){
+					ctx.tab = tab;
+
+					ctx.setEditFile(tab);
+				}
+			};
+
+
+			ctx.setEditFile = function (file){
+				if( !ctx.editor ){
+					ctx.editor	= ace.edit("editor");
+					// Set ACE editor theme
+					ctx.editor.setTheme("ace/theme/chrome");
+
+					var pid;
+					ctx.editor.on('change', function (){
+						clearTimeout(pid);
+						pid = setTimeout(function (){
+							var
+								  file = ctx.editor.file
+								, content = ctx.example.files[file] = ctx.editor.getValue()
+							;
+
+							try {
+								if( /\.xtpl/.test(file) ){
+									var fn = xtpl.compile(file, { content: content });
+									$('#example').xtpl(fn, ctx.example.ctx);
+								}
+								else if( /\.js/.test(file) ){
+									var fn = (new Function('return '+content))();
+									fn(ctx.example.ctx);
+									ctx.example.ctx.$apply();
+								}
+							} catch (er){}
+						}, 1000);
+					});
+
+				}
+
+				try {
+					ctx.editor.file = file;
+					ctx.editor.getSession().setMode("ace/mode/" + eceMode[file.split('.').pop()]);
+					ctx.editor.getSession().setValue(ctx.example.files[file]);
+				} catch (e){}
+			};
+
+
+			// Startup
+			ctx.selectExample(ctx.examples[0]);
+		});
+	</script>
+
+</body>
+</html>
