@@ -1,0 +1,43 @@
+<div>
+	Эта кострукция напоминает аналагочиную в XSLT, но только напоминает.
+	<br/>
+	(название черновое)
+</div>
+
+<x:ctrl>
+	ctx.opacity = .65;
+</x:ctrl>
+
+
+<x:tpl>
+	<div>colors: <x:apply name="colors" /></div>
+	<div>light colors: <x:apply name="colors" mode="light" /></div>
+	<div>rgba colors: <x:apply name="colors" data="ctx.opacity" /></div>
+
+
+	<x:match name="colors">
+		<select>
+			<option>red</option>
+			<option>green</option>
+			<option>blue</option>
+		</select>
+	</x:match>
+
+
+	<x:match name="colors" mode="light">
+		<select>
+			<option>Light red</option>
+			<option>Light green</option>
+			<option>Light blue</option>
+		</select>
+	</x:match>
+
+
+	<x:match name="colors" test="$ < 1">
+		<select>
+			<option>rgba(255,0,0,{{$}})</option>
+			<option>rgba(0,255,0,{{$}})</option>
+			<option>rgba(0,0,255,{{$}})</option>
+		</select>
+	</x:match>
+</x:tpl>

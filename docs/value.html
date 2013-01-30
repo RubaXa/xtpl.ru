@@ -1,0 +1,31 @@
+Вывод значения переменной, внутри тега можно использовать любое JavaScript-выражение.<br/>
+По умолчанию вывод экранируется, есть два типа экранирования: html и js, а также без экранирования.<br/>
+<br/>
+Но самое интересное, это выражение в фигурных скобках, оно будет автоматически обновляется при каждом изменении его содержимого.
+
+
+<x:ctrl>
+	ctx.xss = {
+		  "text": "<script>Alert(1)</script>"
+		, "html": "<button onclick=\"alert('xss')\">XSS</button>"
+	};
+
+	ctx.binding = (new Date).toString();
+
+	ctx.$loop(function (){
+		ctx.binding = (new Date).toString();
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<ul>
+	   <li><x:value>ctx.xss.text.toLowerCase()</x:value> — html escape</li>
+	   <li><x:v>1 + 2</x:v> — alias</li>
+
+	   <li><x:value output="js">"1 + '2' + 3"</x:value> — javascript escape</li>
+	   <li><x:v output="text">ctx.xss.html</x:v> — "as is"</li>
+
+	   <li>{{ctx.binding}} — data binding</li>
+	</ul>
+</x:tpl>

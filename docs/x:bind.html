@@ -1,0 +1,41 @@
+<div>
+	Связывает переименую с input, select или textarea. Её изменение ведет к обновлению значения элемента,
+	также как изменение значения элемента, к обновлению связанной переменной.
+</div>
+
+
+<x:ctrl>
+	ctx.name  = 'xtpl';
+	ctx.radio  = 2;
+	ctx.select = "blue";
+</x:ctrl>
+
+
+<x:tpl>
+	<div>
+		<input x:bind="ctx.name" type="text" />
+		<div>Hello {{ctx.name}}!</div>
+	</div>
+
+	<div>
+		Свяжем два checkbox'а:
+		<input x:checked="ctx.cbx" type="checkbox"/> и
+		<input x:checked="ctx.cbx" type="checkbox"/>
+	</div>
+
+	<div>
+		<div>ctx.radio: {{ctx.radio}}</div>
+		<input x:bind="ctx.radio" value="1" type="radio" />
+		<input x:bind="ctx.radio" value="2" type="radio" />
+		<input x:bind="ctx.radio" value="3" type="radio" />
+	</div>
+
+	<div>
+		<div>ctx.select: {{ctx.select}}</div>
+		<select x:bind="ctx.select">
+			<option>red</option>
+			<option value="rgb(0,255,0)">green</option>
+			<option>blue</option>
+		</select>
+	</div>
+</x:tpl>

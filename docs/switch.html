@@ -1,0 +1,33 @@
+Сравнивает значение выражения с различными вариантами и при совпадении выводит соответствующий блок.
+
+
+<x:ctrl>
+	ctx.foo = 'foo';
+	ctx.num = 1;
+
+	ctx.$loop(function (){
+		if( ctx.num++ >= 5 ){
+			ctx.num = 1;
+		}
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<h4>Switch</h4>
+	<x:switch select="ctx.foo">
+		<x:case test="'foo'">OK!</x:case>
+		<x:default>fail</x:default>
+	</x:switch>
+
+
+	<h4>Data binding</h4>
+	<div>
+		<x:switch bind="ctx.num">
+			<x:case test="1">One</x:case>
+			<x:case test="2">Two</x:case>
+			<x:case test="2">Three</x:case>
+			<x:default>num: {{ctx.num}}</x:default>
+		</x:switch>
+	</div>
+</x:tpl>

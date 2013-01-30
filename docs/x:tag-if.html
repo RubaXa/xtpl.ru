@@ -1,0 +1,16 @@
+<div>
+	Оборачивать тегом или нет, в зависимости от условия:
+</div>
+
+
+<x:ctrl>
+	ctx.bool = false;
+	ctx.$loop(function (){
+		ctx.bool = !ctx.bool;
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<em x:tag-if="ctx.bool">Курсив, или не курсив</em>
+</x:tpl>

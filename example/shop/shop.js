@@ -1,19 +1,14 @@
 xtpl.ctrl('example.shop', function (ctx){
 	var gid = 1;
 
-	window.ctx = ctx;
-
 	// Available sizes
 	ctx.sizes = ['XL', 'L', 'M', 'S'];
-
 
 	// Surcharge depending on size
 	ctx.surcharge = { 'S': 0, 'M': 1, 'L': 3, 'XL': 6 };
 
-
 	// Shop cart
 	ctx.cart = [];
-
 
 	// Shop items
 	ctx.items = [
@@ -61,12 +56,10 @@ xtpl.ctrl('example.shop', function (ctx){
 		}
 	];
 
-
 	// Get item price
 	ctx.getPrice = function (item, amount){
 		return	(amount || 1) * (item.price + ctx.surcharge[item.size]) | 0;
 	};
-
 
 	// Add to cart
 	ctx.addToCart = function (item){
@@ -83,7 +76,6 @@ xtpl.ctrl('example.shop', function (ctx){
 		ctx.cart.push( xtpl.utils.extend({ amount: 1, selected: false }, item) );
 	};
 
-
 	// Remove selected from cart
 	ctx.removeSelected = function (){
 		var i = ctx.cart.length;
@@ -95,14 +87,12 @@ xtpl.ctrl('example.shop', function (ctx){
 		}
 	};
 
-
 	// Get count selected
 	ctx.getCountSelected = function (){
 		var i = ctx.cart.length, count = 0;
 		while( i-- ) count += !!ctx.cart[i].selected;
 		return	count
 	};
-
 
 	// Get total price
 	ctx.getTotalPrice = function(){

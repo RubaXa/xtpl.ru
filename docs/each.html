@@ -1,0 +1,42 @@
+<div>
+	Данная конструкция позволяет итерировать как массивы, так и объекты.
+	Существуют два вида записи: &lt;x:each&gt;...&lt;/x:each&gt;
+	и декларативный &lt;any x:each="..."&gt;...&lt;/any&gt;.
+</div>
+
+
+<x:ctrl>
+	ctx.list = ['Alpha', 'Beta'];
+	ctx.addRand = function (){
+		ctx.list.push( Math.random() );
+	};
+</x:ctrl>
+
+<x:tpl>
+	<h4>Tag</h4>
+	<div>
+		<x:each data="ctx.list" key="idx" as="text">
+			<div>{{idx+1}}. {{text}}</div>
+		</x:each>
+	</div>
+
+	<h4>Declarative: value in list</h4>
+	<ol x:each="text in ctx.list">
+		<li>{{text}}</li>
+	</ol>
+
+	<h4>Declarative: (idx, value) in list</h4>
+	<div x:each="(idx, text) in ctx.list">
+		<div>{{idx+1}}. {{text}}</div>
+	</div>
+
+	<h4>Data binding</h4>
+	<ul>
+		<x:each bind="ctx.list" as="text">
+			<li>{{text}}</li>
+		</x:each>
+	</ul>
+	<br/>
+
+	<button x:click="ctx.addRand();">add rand</button>
+</x:tpl>

@@ -26,7 +26,6 @@ xtpl.ctrl('example.list', function (ctx){
 		return	a == b ? 0 : (a > b ? -1 : 1);
 	};
 
-
 	// Sort items by type
 	ctx.sortItems = function (fn){
 		ctx.items.sort(fn);

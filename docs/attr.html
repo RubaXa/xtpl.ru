@@ -1,0 +1,45 @@
+<div>
+	"Cахар", для работы с атрибутами.
+</div>
+
+
+<x:ctrl>
+	ctx.a = 2;
+	ctx.b = 1;
+	ctx.color = '#000';
+
+	ctx.$loop(function (){
+		ctx.b = !ctx.b;
+		ctx.color = ctx.b ? '#000' : '#f60';
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<ul class="api">
+		<li>
+			<div style="color: red">
+				@style = 'color: '+ctx.color;
+
+				<strong>@attrName = 'newVal';</strong>
+				— полностью заменяет значение атрибута
+			</div>
+		</li>
+
+		<li>
+			<div class="foo">
+				@class += ' bar';
+				<strong>@attr += 'substring';</strong>
+				— конкатенация
+			</div>
+		</li>
+
+		<li>
+			<strong>@prop = value;</strong>
+			— установить свойство объекта, например checked:
+			<input type="checkbox">
+				@checked = (ctx.a + ctx.b == 3);
+			</input>
+		</li>
+	</ul>
+</x:tpl>

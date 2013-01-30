@@ -1,0 +1,41 @@
+Выводит тот или иной блок в зависимости от того, верно ли условие атрибута "test".
+Для реализации условия "ИЛИ" используйте конструкцию &lt;x:else if="..."/&gt; или &lt;x:else/&gt;.<br/>
+<br/>
+Если вместо атрибута "test" использовать "bind", содержимое будет автоматически обновляться, при имении условия.
+
+
+
+<x:ctrl>
+	ctx.num = 0;
+
+	var _inc = function (){
+		if( ctx.num++ > 5 ){
+			ctx.num = 1;
+		}
+	};
+
+	_inc();
+	ctx.$loop(_inc, 1000);
+</x:ctrl>
+
+<x:tpl>
+	<p>
+		<b>Base:</b>
+		<x:if test="2 + 2 == 5">false
+		<x:else if="1 + 1 == 2"/>true
+		<x:else/>wtf?!
+		</x:if>
+	</p>
+
+	<p>
+		<b>Data binding: </b>
+		<x:if bind="ctx.num == 1">one
+		<x:else if="ctx.num == 2"/>two
+		<x:else if="ctx.num == 3"/>three
+		<x:else/>{{ctx.num}}
+		</x:if>
+	</p>
+
+	<p x:if="false">attrs: false</p>
+	<b x:if="true">attrs: true</b>
+</x:tpl>

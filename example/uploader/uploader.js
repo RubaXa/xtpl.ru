@@ -6,7 +6,6 @@ xtpl.ctrl('example.uploader', function (ctx){
 	ctx.files = [];
 
 	ctx.onChoose = function (files){
-
 		ctx.files = [].concat(files, ctx.files);
 
 		FileAPI.upload({

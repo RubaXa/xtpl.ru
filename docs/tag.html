@@ -1,0 +1,19 @@
+Вывод тега, в зависимости от переменной.
+
+<x:ctrl>
+	ctx.idx  = 0;
+	ctx.tags = ['b', 'i', 'u', 's']
+	ctx.isIndex = false;
+
+	ctx.$loop(function (){
+		ctx.idx++;
+		if( !ctx.tags[ctx.idx] ) ctx.idx = 0;
+	}, 1000);
+</x:ctrl>
+
+<x:tpl>
+	<x:tag select="( ctx.isIndex ? 'span' : 'a' )">Home</x:tag>
+	<br/>
+
+	<x:tag bind="ctx.tags[ctx.idx]">Funky text</x:tag>
+</x:tpl>

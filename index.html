@@ -10,7 +10,7 @@
 		  content="xtpl, javascript, template, nodejs, browser, server, client, binding, data-binding, MVVM, rubaxa"/>
 
 	<meta name="description"
-		  content="xtpl — JavaScript шаблонизатор нового покаления, работает как на клиенте, так и сервере.
+		  content="xtpl — JavaScript шаблонизатор нового поколения, работает как на клиенте, так и сервере.
 		           Позволяет связывать данные с шаблоном и многое другое."/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -33,75 +33,108 @@
 			box-shadow: 0 0 5px rgba(0,0,0,.45);
 			border-radius: 5px;
 		}
+
+			#example .api li {
+				line-height: 145%;
+				padding-bottom: 8px;
+			}
+
+		.tag { color: #A72078; }
 	</style>
 	<link href="./example/shop/shop.css" rel="stylesheet"/>
 	<link href="./example/uploader/uploader.css" rel="stylesheet"/>
 </head>
 <body style="margin: 0; padding: 0;">
-
 	<x:tpl ctrl="site">
 		<div class="container" style="xdisplay: none; margin-top: 20px;">
 			<div class="row-fluid">
 				<div class="span3">
 					<ul class="nav nav-list well" x:each="item in ctx.examples">
 						<li x:class="{ active: item == ctx.example }" x:click="ctx.selectExample(item);">
-							<a href="#">{{item.name}}</a>
+							<a href="#!{{item.files[0]}}">{{item.name}}</a>
+						</li>
+					</ul>
+
+
+					<h3>api</h3>
+					<ul class="nav nav-list well" x:each="item in ctx.docs">
+						<li x:class="{ active: item == ctx.example }" x:click="ctx.selectExample(item);">
+							<a href="#!{{item.files[0]}}">{{item.name}}</a>
 						</li>
 					</ul>
 				</div>
-				<div class="span9" style="position: relative;">
-					<div id="example"></div>
 
-					<ul class="nav nav-tabs" x:each="tab in ctx.example.files">
-						<li x:class="{ active: ctx.tab == tab }">
-							<a href="#" x:click="ctx.selectTab(tab)">{{tab.split('/').pop()}}</a>
-						</li>
-					</ul>
-					<div id="editor" style="width: 100%; height: 400px;">console.log(1);</div>
+				<div class="span9" style="position: relative;">
+					<div x:visible="ctx.loading" style="font-size: 200%;">Loading...</div>
+					<div x:visible="!ctx.loading">
+						<x:if bind="ctx.example.descr">
+							<h2>{{ctx.example.name}}</h2>
+							<div id="descr"><x:v bind="true" output="text">ctx.example.descr</x:v></div>
+							<br/>
+						</x:if>
+
+						<div id="example"></div>
+
+						<ul class="nav nav-tabs" x:each="tab in ctx.example.files">
+							<li x:class="{ active: ctx.tab == tab }">
+								<a href="#" x:click="ctx.selectTab(tab)">{{tab.split('/').pop()}}</a>
+							</li>
+						</ul>
+
+						<div id="editor" style="width: 100%; height: 500px;">console.log(1);</div>
+						<div style="height: 550px;"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</x:tpl>
 
 
-
-	<script src="/js/bootstrap.min.js"></script>
 	<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" charset="utf-8"></script>
+
 
 	<script>
 		xtpl.ctrl('site', function (ctx){
-			var eceMode	= { js: 'javascript', css: 'css', xtpl: 'html' };
+			var eceMode	= { js: 'javascript', css: 'css', html: 'html', xtpl: 'html' };
 
 			ctx.examples = [
-				{
-					  name: 'Hello'
-					, files: ['hello/hello.xtpl']
-				}
-				, {
-					  name: 'Simple list'
-					, files: ['list/list.xtpl', 'list/list.js']
-				}
-				, {
-					  name: 'Shop cart'
-					, files: ['shop/shop.xtpl', 'shop/shop.js']
-				}
-				, {
-					  name: 'File uploader'
-					, files: ['uploader/uploader.xtpl', 'uploader/uploader.js']
-				}
+				  { name: 'Hello', files: ['example/hello/hello.xtpl'] }
+				, { name: 'Simple list', files: ['example/list/list.xtpl', 'example/list/list.js'] }
+				, { name: 'Shop cart', files: ['example/shop/shop.xtpl', 'example/shop/shop.js'] }
+				, { name: 'File uploader', files: ['example/uploader/uploader.xtpl', 'example/uploader/uploader.js'] }
+			];
+
+
+			ctx.docs = [
+				  { name: '<x:each/>, <any x:each/>', files: ['docs/each.html'] }
+				, { name: '<x:if/>, <any x:if/>', files: ['docs/if.html'] }
+				, { name: '<x:match/>', files: ['docs/match.html'] }
+				, { name: '<x:switch/>', files: ['docs/switch.html'] }
+				, { name: '<x:tag/>', files: ['docs/tag.html'] }
+				, { name: '<x:value/>, {{expression}}', files: ['docs/value.html'] }
+				, { name: '@attribute', files: ['docs/attr.html'] }
+				, { name: '<any x:attrs/>', files: ['docs/x:attrs.html'] }
+				, { name: '<any x:tag-if/>', files: ['docs/x:tag-if.html'] }
+				, { name: '<input x:bind/>', files: ['docs/x:bind.html'] }
 			];
 
 
 			ctx.selectExample = function (example){
 				ctx.example = example;
+				ctx.loading = true;
 				ctx.loadExample(example).done(function (){
+					ctx.loading = false;
+
 					var
 						  file = example.files[0]
 						, content = ctx.example.files[file]
+						, fn = xtpl.compile(file, { content: content })
 					;
 
-					$('#example').xtpl(xtpl.compile(file, { content: content }), example.ctx = {});
+					$('#example').xtpl(fn, example.ctx = {});
+
 					ctx.selectTab(file);
+					location.hash = '!'+file;
 				});
 			};
 
@@ -111,8 +144,28 @@
 					var queue = [];
 
 					xtpl.utils.each(example.files, function (file){
-						queue.push($.get('./example/'+file+'?r=1', function (str){
-							example.files[file] = str;
+						queue.push($.get('./'+file+'?r=4', function (str){
+							if( ~example.files[0].indexOf('docs/') ){
+								var name = file.replace(/^.+\/([^.]+).+/, '$1');
+								example.files = [];
+
+								str = str.replace(/<x:(ctrl|tpl)>([\s\S]+)<\/x:\1>/g, function (_, node, content){
+									if( node == 'ctrl' ){
+										example.files[1] = name+'.js';
+										example.files[name+'.js']	= content = 'xtpl.ctrl("'+ name +'", function (ctx){\n'+ content +'\n});';
+										(new Function(content))();
+									} else {
+										example.files[0] = file;
+										example.files[file]	= '<x:tpl ctrl="'+ name +'">\n'+ content +'\n</x:tpl>';
+									}
+
+									return '';
+								});
+
+								example.descr = jQuery.trim(str).replace(/(&lt;.*?&gt;)/g, '<span class="tag">$1</span>');
+							} else {
+								example.files[file] = str;
+							}
 						}));
 					});
 
@@ -146,11 +199,19 @@
 						pid = setTimeout(function (){
 							var
 								  file = ctx.editor.file
-								, content = ctx.example.files[file] = ctx.editor.getValue()
+								, content = ctx.editor.getValue()
 							;
 
+							if( ctx.example.files[file] == content ){
+								return
+							}
+
+							ctx.example.files[file] = content;
+
 							try {
-								if( /\.xtpl/.test(file) ){
+								ctx.example.ctx.$delay.clear();
+
+								if( /\.(xtpl|html)/.test(file) ){
 									var fn = xtpl.compile(file, { content: content });
 									$('#example').xtpl(fn, ctx.example.ctx);
 								}
@@ -159,7 +220,9 @@
 									fn(ctx.example.ctx);
 									ctx.example.ctx.$apply();
 								}
-							} catch (er){}
+							} catch (er){
+								console.log(er);
+							}
 						}, 1000);
 					});
 
@@ -173,8 +236,22 @@
 			};
 
 
-			// Startup
-			ctx.selectExample(ctx.examples[0]);
+			// Startup :[
+			var file = location.toString().split('#!')[1] || ctx.examples[0].files[0];
+			if( ~file.indexOf('docs') ){
+				xtpl.utils.each(ctx.docs, function (item){
+					if( item.files[0] == file ){
+						ctx.selectExample(item);
+					}
+				});
+			}
+			else {
+				xtpl.utils.each(ctx.examples, function (item){
+					if( item.files[0] == file ){
+						ctx.selectExample(item);
+					}
+				});
+			}
 		});
 	</script>
 
