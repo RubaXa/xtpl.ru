@@ -112,10 +112,13 @@
 				, { name: '<x:switch/>', files: ['docs/switch.html'] }
 				, { name: '<x:tag/>', files: ['docs/tag.html'] }
 				, { name: '<x:value/>, {{expression}}', files: ['docs/value.html'] }
+				, { name: '<x:value mod/>', files: ['docs/value.mod.html'] }
 				, { name: '@attribute', files: ['docs/attr.html'] }
-				, { name: '<any x:attrs/>', files: ['docs/x:attrs.html'] }
+				, { name: '<any attr="{{expr}}"/>', files: ['docs/attr.expr.html'] }
+				, { name: '<any x:class/>', files: ['docs/x:class.html'] }
 				, { name: '<any x:tag-if/>', files: ['docs/x:tag-if.html'] }
 				, { name: '<input x:bind/>', files: ['docs/x:bind.html'] }
+				, { name: '<input x:disabled/>', files: ['docs/x:disabled.html'] }
 			];
 
 
@@ -146,7 +149,7 @@
 					xtpl.utils.each(example.files, function (file){
 						queue.push($.get('./'+file+'?r=4', function (str){
 							if( ~example.files[0].indexOf('docs/') ){
-								var name = file.replace(/^.+\/([^.]+).+/, '$1');
+								var name = file.replace(/^.+\/(.+)\.[a-z]+$/, '$1');
 								example.files = [];
 
 								str = str.replace(/<x:(ctrl|tpl)>([\s\S]+)<\/x:\1>/g, function (_, node, content){
