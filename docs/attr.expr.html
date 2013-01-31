@@ -1,0 +1,16 @@
+<div>
+	Выражение в фигурных скобках будет выполнено и заменено на результат.
+</div>
+
+
+<x:ctrl>
+	ctx.bool = true;
+	ctx.$loop(function (){
+		ctx.bool = !ctx.bool;
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<strong style="color: {{ ctx.bool ? '#000': '#c00' }};">&lt;any attrName="\{{ expresion }}"/&gt;</strong>
+</x:tpl>

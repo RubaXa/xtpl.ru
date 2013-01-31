@@ -1,0 +1,21 @@
+<div xmlns:x="http://www.w3.org/1999/html">
+	Модификатор значения выражения.
+</div>
+
+<x:ctrl>
+	xtpl.mod("date.time", function (ts){
+		var date = new Date(ts);
+		var min  = date.getMinutes();
+		var sec  = date.getSeconds()
+		return date.getHours() +':'+ (min < 10 ? '0' : '') + min +':'+ (sec < 10 ? '0' : '') + sec;
+	});
+
+	ctx.ts = (new Date).getTime();
+	ctx.$loop(function (){
+		ctx.ts = (new Date).getTime();
+	}, 1000);
+</x:ctrl>
+
+<x:tpl>
+	<x:v mod="date.time" bind="true">ctx.ts</x:v>
+</x:tpl>

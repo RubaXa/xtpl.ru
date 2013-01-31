@@ -1,0 +1,22 @@
+<div>
+	Ключ — название класса, значение — boolean.
+</div>
+<style type="text/css">
+	.red { color: red; }
+	.italic { font-style: italic; }
+	.underline { text-decoration: underline; }
+</style>
+
+<x:ctrl>
+	ctx.count = 0;
+	ctx.$loop(function (){
+		ctx.count++;
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<div x:class="{ red: ctx.count % 2, italic: ctx.count % 3, underline: ctx.count % 4 }">
+		Text
+	</div>
+</x:tpl>

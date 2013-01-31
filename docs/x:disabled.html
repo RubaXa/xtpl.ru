@@ -1,0 +1,16 @@
+<div>
+	Связывает свойство disabled с переменной или выражением.
+</div>
+
+
+<x:ctrl>
+	ctx.count = 0;
+	ctx.$loop(function (){
+		ctx.count++;
+	}, 1000);
+</x:ctrl>
+
+
+<x:tpl>
+	<input value="On/Off" type="text" x:disabled="ctx.count % 2" />
+</x:tpl>
